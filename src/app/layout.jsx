@@ -1,8 +1,6 @@
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { inter, montserrat } from "./fonts";
 import Header from "./components/Header";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
 	title: "Pikurate",
@@ -12,7 +10,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
 	return (
-		<html lang="en">
+		<html lang="en" className={`${inter.variable} ${montserrat.variable}`}>
 			<body className="text-black">
 				<Header />
 				{children}

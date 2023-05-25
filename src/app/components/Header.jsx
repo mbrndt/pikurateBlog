@@ -7,15 +7,15 @@ const Header = () => {
 	return (
 		<header className="mt-2 border-b">
 			<div className="flex flex-row items-center justify-between">
-				<div className="text-blue-900 flex flex-row items-center gap-3 font-serif ml-5">
+				<div className="text-blue-900 flex flex-row items-center gap-3 ml-5 font-sans">
 					<Image src={logo} alt="Pikurate Logo" />
 					<Link href="/">Pikurate</Link>
 				</div>
 				<div className="flex justify-end">
-					<div className="text-black mr-5 hidden md:flex">
+					<div className=" mr-5 hidden md:flex">
 						<Link href="/blog">Blog</Link>
 					</div>
-					<div className="text-black mr-5 hidden md:flex">
+					<div className=" mr-5 hidden md:flex">
 						<Link href="/about">About</Link>
 					</div>
 				</div>

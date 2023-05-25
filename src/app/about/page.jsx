@@ -9,7 +9,7 @@ function AboutPage() {
 		<div className="w-screen min-h-screen flex flex-row">
 			<div className="w-1/4 h-full " />
 			<div className="border-x ">
-				<h1 className="pb-10 mt-5 font-serif text-lg flex justify-center">
+				<h1 className="pb-10 mt-5 text-lg flex justify-center">
 					Welcome to the About Page
 				</h1>
 				<p className=" mx-10">
