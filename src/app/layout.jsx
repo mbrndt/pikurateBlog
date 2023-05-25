@@ -1,6 +1,7 @@
 import "./globals.css";
 import { inter, montserrat } from "./fonts";
 import Header from "./components/Header";
+import { Footer } from "./components/Footer";
 
 export const metadata = {
 	title: "Pikurate",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
 			<body className="text-black">
 				<Header />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
