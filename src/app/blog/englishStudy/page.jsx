@@ -1,7 +1,7 @@
 import React from "react";
 
-function englishStudyPage() {
+function EnglishStudyPage() {
 	return <div>englishStudyPage</div>;
 }
 
-export default englishStudyPage;
+export default EnglishStudyPage;

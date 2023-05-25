@@ -8,6 +8,7 @@ export default function HomePage() {
 				<li className="flex flex-col">
 					<Link href="/">Home</Link>
 					<Link href="/blog">Blog</Link>
+					<Link href="/about">About</Link>
 				</li>
 			</ul>
 		</main>

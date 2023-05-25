@@ -11,8 +11,13 @@ const Header = () => {
 					<Image src={logo} alt="Pikurate Logo" />
 					<Link href="/">Pikurate</Link>
 				</div>
-				<div className="text-black mr-5 hidden md:flex">
-					<Link href="/blog">Blog</Link>
+				<div className="flex justify-end">
+					<div className="text-black mr-5 hidden md:flex">
+						<Link href="/blog">Blog</Link>
+					</div>
+					<div className="text-black mr-5 hidden md:flex">
+						<Link href="/about">About</Link>
+					</div>
 				</div>
 				<div className="md:hidden mr-5">
 					<button>
