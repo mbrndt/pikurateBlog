@@ -3,8 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../../assets/parkjinyoung.jpeg";
 import hero from "../../assets/study.jpg";
-import image2 from "../../assets/image2.png";
-import image3 from "../../assets/image3.png";
 
 function EnglishStudyPage() {
 	return (
