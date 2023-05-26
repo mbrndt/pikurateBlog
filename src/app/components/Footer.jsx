@@ -3,7 +3,7 @@ import React from "react";
 export const Footer = () => {
 	return (
 		<div className="border-t flex justify-around ">
-			<div className="flex gap-20 mx-10 sm:mx-0 mt-4 mb-4 ">
+			<div className="flex gap-20 mx-10 sm:mx-0 mt-4 mb-4 flex-wrap">
 				<div className="flex flex-col gap-3">
 					<div className="text-blue-600 font-bold">Pikurate</div>
 					<div className="text-sm">© 2023 Pikurate</div>

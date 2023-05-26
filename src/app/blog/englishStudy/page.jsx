@@ -39,10 +39,10 @@ function EnglishStudyPage() {
 							<p className="text-blue-600">
 								duolingo.com and 223 more references
 							</p>
-							<p className="text-slate-400">last update: 1w ago</p>
+							<p className="text-slate-400 pb-5">last update: 1w ago</p>
 						</div>
 					</div>
-					<div className="flex items-center flex-col border-b-2 pb-4">
+					<div className="flex items-center flex-col border-b-2 pb-4 mt-5">
 						<Image
 							src={hero}
 							className="w-3/4 h-3/4 md:h-1/2 md:w-1/2 rounded my-5"
