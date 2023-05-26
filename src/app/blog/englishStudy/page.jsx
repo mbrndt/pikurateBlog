@@ -58,17 +58,21 @@ function EnglishStudyPage() {
 					</div>
 					<div className="flex flex-col items-center">
 						<h1 className="text-4xl m-5 ">Websites about studying English</h1>
-						<Image src={image3} alt="" className=" justify-center rounded-lg" />
-						<p className="bg-slate-100 rounded-lg w-3/4 p-4 my-5">
+						<Image
+							src={hero}
+							alt=""
+							className=" justify-center rounded-lg md:w-15 md:h-15"
+						/>
+						<p className="bg-slate-100 rounded-lg w-3/4 p-4 my-5 ">
 							Discover our carefully curated collection of English learning
 							resources, featuring a variety of tools, tutorials, and practice
 							materials to support your language journey.
 						</p>
 						<div className="flex items-center gap-5 border-b">
 							<Image
-								src={image2}
+								src={hero}
 								alt=""
-								className="rounded-lg w-3/4 h-3/4 md:w-1/2 md:h-1/2"
+								className="rounded-lg w-1/4 h-1/4 md:w-1/2 md:h-1/2"
 							/>
 							<p className="mb-5">
 								<span className="underline text-blue-500 font-sans">
