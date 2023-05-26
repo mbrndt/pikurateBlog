@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function HomePage() {
 	return (
-		<main className="flex flex-row items-center">
+		<main className="flex flex-row flex-wrap md:flex-nowrap items-center">
 			<div className="flex ml-20 flex-col">
 				<Image src={landingTitle} alt="" />
 				<h1 className="text-3xl mt-10">
