@@ -5,7 +5,7 @@ import { AiOutlineMenu } from "react-icons/ai";
 
 const Header = () => {
 	return (
-		<header className="mt-2 border-b">
+		<header className="mt-2 border-b font-sans">
 			<div className="flex flex-row items-center justify-between">
 				<div className="text-blue-900 flex flex-row items-center gap-3 ml-5 font-sans">
 					<Image src={logo} alt="Pikurate Logo" />

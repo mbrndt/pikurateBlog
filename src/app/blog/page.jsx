@@ -12,9 +12,9 @@ function page() {
 		<div className="text-black w-screen min-h-screen flex flex-row">
 			<div className="w-1/4 h-full " />
 			<div className="border-x w-full p-5">
-				<h1 className="font-serif text-xl justify-center flex">Blog</h1>
+				<h1 className=" text-xl justify-center flex">Blog</h1>
 				<div className="mt-10">
-					<div className="w-fit h-fit border rounded-md flex flex-row flex-wrap justify-center">
+					<div className="w-fit h-fit border rounded-xl flex flex-row flex-wrap justify-center">
 						<Image
 							className="h-fit w-fit mt-5 rounded"
 							src={study}
@@ -23,7 +23,10 @@ function page() {
 							alt=""
 						/>
 						<div className="flex flex-col pb-5 items-center">
-							<Link className="pl-5 mt-5 text-xl" href="/blog/englishStudy">
+							<Link
+								className="pl-5 mt-5 text-xl font-sans"
+								href="/blog/englishStudy"
+							>
 								English Study Materials
 							</Link>
 							<p className="m-5 pt-5">
@@ -32,7 +35,7 @@ function page() {
 							</p>
 							<Link
 								href="/blog/englishStudy"
-								className="border rounded w-1/2 sm:w-1/4 flex justify-center
+								className="uppercase border rounded-xl border-gray-500 px-2 mb-5 w-1/2 sm:w-1/4 flex justify-center
 								hover:bg-slate-50"
 							>
 								{" "}

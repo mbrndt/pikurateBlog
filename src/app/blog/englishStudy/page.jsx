@@ -17,8 +17,7 @@ function EnglishStudyPage() {
 			<div className="w-1/4 h-full " />
 			<div className="border-x w-full p-5">
 				<div className="flex flex-row w-full border-b gap-10 pl-10 text-xl">
-					<p>Tutorials</p>
-					<p>Tools and Libraries</p>
+					<p className="capitalize">Websites about studying English</p>
 				</div>
 				<div className="mt-10">
 					<div>
@@ -64,7 +63,9 @@ function EnglishStudyPage() {
 					<section>
 						{/* blog cards */}
 						<div className="flex flex-col items-center">
-							<h1 className="text-4xl m-5 ">Websites about studying English</h1>
+							<h1 className="text-4xl m-5 capitalize">
+								Websites about studying English
+							</h1>
 							<Image
 								src={image3}
 								alt=""
