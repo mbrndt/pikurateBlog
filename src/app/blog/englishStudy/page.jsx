@@ -4,7 +4,7 @@ import Link from "next/link";
 import logo from "../../assets/parkjinyoung.jpeg";
 import hero from "../../assets/study.jpg";
 import image1 from "../../assets/image2.jpg";
-import image3 from "../../assets/image3.png";
+
 import image4 from "../../assets/image4.jpg";
 import image5 from "../../assets/image5.jpg";
 import image6 from "../../assets/image6.jpg";
