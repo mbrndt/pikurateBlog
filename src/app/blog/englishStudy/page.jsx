@@ -3,6 +3,13 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../../assets/parkjinyoung.jpeg";
 import hero from "../../assets/study.jpg";
+import image1 from "../../assets/image2.jpg";
+import image3 from "../../assets/image3.png";
+import image4 from "../../assets/image4.jpg";
+import image5 from "../../assets/image5.jpg";
+import image6 from "../../assets/image6.jpg";
+import image7 from "../../assets/image7.jpg";
+import image8 from "../../assets/image8.jpg";
 
 function EnglishStudyPage() {
 	return (
@@ -66,19 +73,93 @@ function EnglishStudyPage() {
 							resources, featuring a variety of tools, tutorials, and practice
 							materials to support your language journey.
 						</p>
-						<div className="flex items-center gap-5 border-b">
+						<div className="flex items-center gap-5 border-b mt-5">
 							<Image
-								src={hero}
+								src={image1}
 								alt=""
-								className="rounded-lg w-1/4 h-1/4 md:w-1/2 md:h-1/2"
+								className="rounded-lg w-1/4 h-1/4 mb-5"
 							/>
 							<p className="mb-5">
 								<span className="underline text-blue-500 font-sans">
 									영어 작문을 도와주는 사이트 모음 -{" "}
 								</span>{" "}
+								<br />
 								Explore this handy collection of grammar and spelling check
 								tools for English, designed to help you enhance your writing
 								skills and ensure accuracy in your written communication.
+							</p>
+						</div>
+						<div className="flex items-center gap-5 border-b mt-5">
+							<Image
+								src={image4}
+								alt=""
+								className="rounded-lg w-1/4 h-1/4 mb-5"
+							/>
+							<p className="mb-5">
+								<span className="underline text-blue-500 font-sans">
+									영어공부혼자하기 유용한 사이트 모음 37개 -{" "}
+								</span>{" "}
+								<br />
+								Explore an extensive range of subjects designed to improve your
+								vocabulary, grammar, speaking, and writing abilities, empowering
+								you to excel in English communication across various domains.
+							</p>
+						</div>
+						<div className="flex items-center gap-5 border-b mt-5">
+							<Image
+								src={image5}
+								alt=""
+								className="rounded-lg w-1/4 h-1/4 mb-5"
+							/>
+							<p className="mb-5">
+								<span className="underline text-blue-500 font-sans">
+									영어작문을 도와주는 유용한 무료사이트, Just the Word! -{" "}
+								</span>{" "}
+								<br />
+								Explores the website “Just the Word!”
+							</p>
+						</div>
+						<div className="flex items-center gap-5 border-b mt-5">
+							<Image
+								src={image6}
+								alt=""
+								className="rounded-lg w-1/4 h-1/4 mb-5"
+							/>
+							<p className="mb-5">
+								<span className="underline text-blue-500 font-sans">
+									영어 공부에 도움이 되는 사이트들 -{" "}
+								</span>{" "}
+								<br />
+								several websites to improve your english
+							</p>
+						</div>
+						<div className="flex items-center gap-5 border-b mt-5">
+							<Image
+								src={image7}
+								alt=""
+								className="rounded-lg w-1/4 h-1/4 mb-5"
+							/>
+							<p className="mb-5">
+								<span className="underline text-blue-500 font-sans">
+									영어공부에 유용한 무료 사이트 모음 (케이크 어플, 그래멀리,
+									유글리쉬, yarn, hinative, 유튜브 영어는반복이다) -{" "}
+								</span>{" "}
+								<br />
+								free sites that will help you learn english
+							</p>
+						</div>
+						<div className="flex items-center gap-5 border-b mt-5">
+							<Image
+								src={image8}
+								alt=""
+								className="rounded-lg w-1/4 h-1/4 mb-5"
+							/>
+							<p className="mb-5">
+								<span className="underline text-blue-500 font-sans">
+									영작학습을 위한 추천사이트 모음 (퍼옴) -{" "}
+								</span>{" "}
+								<br />A collection of recommended sites for English writing
+								learning
 							</p>
 						</div>
 					</div>
