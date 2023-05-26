@@ -27,7 +27,7 @@ function EnglishStudyPage() {
 						</h1>
 					</div>
 
-					<div className="flex flex-col bg-slate-100 rounded-lg w-fit ml-10 mt-10">
+					<div className="flex flex-col bg-gray-100 rounded-lg w-fit ml-10 mt-10">
 						<div className="flex flex-row gap-5 pl-5 mt-5">
 							<Image src={logo} alt="" className="rounded-full w-10 h-10" />
 							<p className="text-blue-600">
@@ -48,7 +48,7 @@ function EnglishStudyPage() {
 							className="w-3/4 h-3/4 md:h-1/2 md:w-1/2 rounded my-5"
 							alt=""
 						/>
-						<p className="bg-slate-100 rounded-lg w-3/4 p-4">
+						<p className="bg-gray-50 rounded-lg w-3/4 p-4">
 							Pikurate, a content curation provider, has compiled a
 							comprehensive collection of information on this topic from across
 							the internet. The platform has a community of expert curators who
@@ -70,7 +70,7 @@ function EnglishStudyPage() {
 								alt=""
 								className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
 							/>
-							<p className="bg-slate-100 rounded-lg w-3/4 p-4 my-5 ">
+							<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
 								Discover our carefully curated collection of English learning
 								resources, featuring a variety of tools, tutorials, and practice
 								materials to support your language journey.
@@ -172,7 +172,7 @@ function EnglishStudyPage() {
 						<div className="flex flex-col items-center mt-5">
 							<p>This Page has 264,094 views</p>
 							<div className="">
-								<div className="bg-gray-100 rounded-xl flex flex-row gap-5 mt-5 items-center">
+								<div className="bg-gray-50 rounded-xl flex flex-row gap-5 mt-5 items-center">
 									<button className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5">
 										Share
 									</button>
@@ -181,7 +181,7 @@ function EnglishStudyPage() {
 										friends and colleagues.
 									</p>
 								</div>
-								<div className="bg-gray-100 rounded-xl flex flex-row gap-5 mt-5 items-center">
+								<div className="bg-gray-50 rounded-xl flex flex-row gap-5 mt-5 items-center">
 									<button className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 w md:px-5 md:m-5">
 										Sign Up
 									</button>
@@ -190,7 +190,7 @@ function EnglishStudyPage() {
 										the latest cutting-edge technology.
 									</p>
 								</div>
-								<div className="bg-gray-100 rounded-xl flex flex-row gap-5 mt-5 items-center">
+								<div className="bg-gray-50 rounded-xl flex flex-row gap-5 mt-5 items-center">
 									<button className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5">
 										Request{" "}
 									</button>
@@ -200,6 +200,26 @@ function EnglishStudyPage() {
 									</p>
 								</div>
 							</div>
+							<button className="uppercase font-serif ml-2 mt-10 border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5">
+								298 Comments
+							</button>
+							<div className="flex flex-row space-x-3 mt-10 justify-start  w-full border-b">
+								<p className="uppercase border rounded-xl border-gray-500 px-2 mb-5">
+									english study
+								</p>
+								<p className="uppercase border rounded-xl border-gray-500 px-2 mb-5">
+									studying
+								</p>
+							</div>
+						</div>
+					</section>
+					<section>
+						{/* suggested section */}
+						<div>
+							<h1 className="font-serif text-2xl uppercase mt-5">
+								more like this
+							</h1>
+							<p className="mt-10">coming soon ...</p>
 						</div>
 					</section>
 				</div>
