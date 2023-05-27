@@ -12,9 +12,9 @@ function page() {
 		<div className=" w-screen min-h-screen flex flex-row">
 			<div className="md:w-1/4 md:h-full " />
 			<div className="md:border-x  items-center md:p-5">
-				<h1 className=" text-xl justify-center flex">Blog</h1>
+				<h1 className=" text-3xl mt-5 justify-center flex">Blog</h1>
 				<div className="mt-10">
-					<div className="w-fit h-fit border rounded-xl flex flex-row flex-wrap justify-center">
+					<div className="w-fit h-fit border rounded-xl flex flex-row mx-5 flex-wrap justify-center">
 						<Image
 							className="h-fit w-fit mt-5 rounded"
 							src={study}

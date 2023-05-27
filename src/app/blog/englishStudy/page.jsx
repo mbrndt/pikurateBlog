@@ -26,7 +26,7 @@ function EnglishStudyPage() {
 						</h1>
 					</div>
 
-					<div className="flex flex-col bg-gray-100 rounded-lg w-fit ml-10 mt-10">
+					<div className="flex flex-col bg-gray-100 rounded-lg w-fit  mt-10">
 						<div className="flex flex-row gap-5 pl-5 mt-5">
 							<Image src={logo} alt="" className="rounded-full w-10 h-10" />
 							<p className="text-blue-600">
