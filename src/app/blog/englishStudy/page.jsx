@@ -13,26 +13,28 @@ import image8 from "../../assets/image8.jpg";
 
 function EnglishStudyPage() {
 	return (
-		<div className="text-black w-screen min-h-screen flex flex-row">
+		<div className=" w-screen min-h-screen flex flex-row">
 			<div className="md:w-1/4 md:h-full " />
-			<div className="md:border-x w-full p-5">
-				<div className="flex flex-row w-full border-b gap-10 pl-10 text-xl">
+			<div className="md:border-x ml-3 md:pl-5 pr-5 md:w-full">
+				<div className="flex flex-row w-full border-b gap-10 pl-10 text-xl py-2 xs sticky top-0 bg-white">
 					<p className="capitalize">Websites about studying English</p>
 				</div>
 				<div className="mt-10">
 					<div>
-						<h1 className="text-4xl m-5">
+						<h1 className="text-4xl m-5 pt-5">
 							A Collection Of Helpful Sites For Studying English
 						</h1>
 					</div>
 
-					<div className="flex flex-col bg-gray-100 rounded-lg w-fit  mt-10">
-						<div className="flex flex-row gap-5 pl-5 mt-5">
-							<Image src={logo} alt="" className="rounded-full w-10 h-10" />
-							<p className="text-blue-600">
-								Leo.song
-								<span className="text-black px-2">and</span> 23 more curators
-							</p>
+					<div className="flex flex-col bg-gray-100 rounded-lg w-fit mt-10">
+						<div className="flex flex-row gap-5 pl-2 mt-5">
+							<Link href="/blog/curators" className="flex flex-row gap-3">
+								<Image src={logo} alt="" className="rounded-full w-10 h-10" />
+								<p className="text-blue-600 self-center">
+									Leo.song
+									<span className="text-black px-2">and</span> 23 more curators
+								</p>
+							</Link>
 						</div>
 						<div className="pl-20 mr-5">
 							<p className="text-blue-600">
@@ -47,7 +49,7 @@ function EnglishStudyPage() {
 							className="w-3/4 h-3/4 md:h-1/2 md:w-1/2 rounded my-5"
 							alt=""
 						/>
-						<p className="bg-gray-50 rounded-lg w-3/4 p-4">
+						<p className="bg-gray-50 rounded-lg w-full md:w-3/4 p-4">
 							Pikurate, a content curation provider, has compiled a
 							comprehensive collection of information on this topic from across
 							the internet. The platform has a community of expert curators who
