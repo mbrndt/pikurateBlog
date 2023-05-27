@@ -9,9 +9,9 @@ export const metadata = {
 
 function page() {
 	return (
-		<div className="text-black w-screen min-h-screen flex flex-row">
-			<div className="w-1/4 h-full " />
-			<div className="border-x w-full p-5">
+		<div className=" w-screen min-h-screen flex flex-row">
+			<div className="md:w-1/4 md:h-full " />
+			<div className="md:border-x  items-center md:p-5">
 				<h1 className=" text-xl justify-center flex">Blog</h1>
 				<div className="mt-10">
 					<div className="w-fit h-fit border rounded-xl flex flex-row flex-wrap justify-center">
@@ -45,7 +45,7 @@ function page() {
 					</div>
 				</div>
 			</div>
-			<div className="w-1/4 h-full " />
+			<div className="md:w-1/4 md:h-full " />
 		</div>
 	);
 }
