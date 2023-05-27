@@ -14,8 +14,8 @@ import image8 from "../../assets/image8.jpg";
 function EnglishStudyPage() {
 	return (
 		<div className="text-black w-screen min-h-screen flex flex-row">
-			<div className="w-1/4 h-full " />
-			<div className="border-x w-full p-5">
+			<div className="md:w-1/4 md:h-full " />
+			<div className="md:border-x w-full p-5">
 				<div className="flex flex-row w-full border-b gap-10 pl-10 text-xl">
 					<p className="capitalize">Websites about studying English</p>
 				</div>
@@ -201,9 +201,12 @@ function EnglishStudyPage() {
 									</p>
 								</div>
 							</div>
-							<button className="uppercase font-serif ml-2 mt-10 border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5">
+							<Link
+								href="/blog/comments"
+								className="uppercase font-serif ml-2 mt-10 border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5 hover:bg-gray-50"
+							>
 								298 Comments
-							</button>
+							</Link>
 							<div className="flex flex-row space-x-3 mt-10 justify-start  w-full border-b">
 								<p className="uppercase border rounded-xl border-gray-500 px-2 mb-5">
 									english study
@@ -225,7 +228,7 @@ function EnglishStudyPage() {
 					</section>
 				</div>
 			</div>
-			<div className="w-1/4 h-full " />
+			<div className="md:w-1/4 md:h-full " />
 		</div>
 	);
 }

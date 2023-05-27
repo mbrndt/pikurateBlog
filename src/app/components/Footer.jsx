@@ -1,4 +1,6 @@
 import React from "react";
+import logo from "../assets/CI_color.png";
+import Image from "next/image";
 
 export const Footer = () => {
 	return (
@@ -7,6 +9,8 @@ export const Footer = () => {
 				<div className="flex flex-col gap-3">
 					<div className="text-blue-600 font-bold font-sans">Pikurate</div>
 					<div className="text-sm">© 2023 Pikurate</div>
+					<div className="text-sm">All Rights Reserved</div>
+					<Image src={logo} alt="Pikurate Logo" width={100} height={100} />
 				</div>
 				<div className="flex flex-col gap-3">
 					<div className="text-blue-600 font-bold font-sans">About</div>
