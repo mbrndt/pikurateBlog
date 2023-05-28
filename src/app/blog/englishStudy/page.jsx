@@ -85,9 +85,14 @@ function EnglishStudyPage() {
 									className="rounded-lg w-1/4 h-1/4 mb-5"
 								/>
 								<p className="mb-5">
-									<span className="underline text-blue-500 font-sans">
+									<Link
+										href="https://truecloset.tistory.com/91"
+										target="_blank"
+										rel="noopener noreferrer"
+										className="underline text-blue-500 font-sans"
+									>
 										영어 작문을 도와주는 사이트 모음 -{" "}
-									</span>{" "}
+									</Link>{" "}
 									<br />
 									Explore this handy collection of grammar and spelling check
 									tools for English, designed to help you enhance your writing
@@ -101,9 +106,14 @@ function EnglishStudyPage() {
 									className="rounded-lg w-1/4 h-1/4 mb-5"
 								/>
 								<p className="mb-5">
-									<span className="underline text-blue-500 font-sans">
+									<Link
+										href="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
+										target="_blank"
+										rel="noopener noreferrer"
+										className="underline text-blue-500 font-sans"
+									>
 										영어공부혼자하기 유용한 사이트 모음 37개 -{" "}
-									</span>{" "}
+									</Link>
 									<br />
 									Explore an extensive range of subjects designed to improve
 									your vocabulary, grammar, speaking, and writing abilities,
@@ -118,9 +128,14 @@ function EnglishStudyPage() {
 									className="rounded-lg w-1/4 h-1/4 mb-5"
 								/>
 								<p className="mb-5">
-									<span className="underline text-blue-500 font-sans">
+									<Link
+										href="https://oxchat.tistory.com/263"
+										target="_blank"
+										rel="noopener noreferrer"
+										className="underline text-blue-500 font-sans"
+									>
 										영어작문을 도와주는 유용한 무료사이트, Just the Word! -{" "}
-									</span>{" "}
+									</Link>
 									<br />
 									Explores the website “Just the Word!”
 								</p>
@@ -132,9 +147,14 @@ function EnglishStudyPage() {
 									className="rounded-lg w-1/4 h-1/4 mb-5"
 								/>
 								<p className="mb-5">
-									<span className="underline text-blue-500 font-sans">
+									<Link
+										href="http://cafeclass.kr/%EC%98%81%EC%96%B4-%EA%B3%B5%EB%B6%80%EC%97%90-%EB%8F%84%EC%9B%80%EC%9D%B4-%EB%90%98%EB%8A%94-%EC%82%AC%EC%9D%B4%ED%8A%B8/"
+										target="_blank"
+										rel="noopener noreferrer"
+										className="underline text-blue-500 font-sans"
+									>
 										영어 공부에 도움이 되는 사이트들 -{" "}
-									</span>{" "}
+									</Link>
 									<br />
 									several websites to improve your english
 								</p>
@@ -146,10 +166,15 @@ function EnglishStudyPage() {
 									className="rounded-lg w-1/4 h-1/4 mb-5"
 								/>
 								<p className="mb-5">
-									<span className="underline text-blue-500 font-sans">
+									<Link
+										href="https://livingalonewell.tistory.com/17"
+										target="_blank"
+										rel="noopener noreferrer"
+										className="underline text-blue-500 font-sans"
+									>
 										영어공부에 유용한 무료 사이트 모음 (케이크 어플, 그래멀리,
-										유글리쉬, yarn, hinative, 유튜브 영어는반복이다) -{" "}
-									</span>{" "}
+										유글리쉬, yarn, 유튜브 영어는반복이다) -{" "}
+									</Link>{" "}
 									<br />
 									free sites that will help you learn english
 								</p>
@@ -161,9 +186,14 @@ function EnglishStudyPage() {
 									className="rounded-lg w-1/4 h-1/4 mb-5"
 								/>
 								<p className="mb-5">
-									<span className="underline text-blue-500 font-sans">
+									<Link
+										href="https://m.blog.naver.com/icyee/130172016491"
+										target="_blank"
+										rel="noopener noreferrer"
+										className="underline text-blue-500 font-sans"
+									>
 										영작학습을 위한 추천사이트 모음 (퍼옴) -{" "}
-									</span>{" "}
+									</Link>
 									<br />A collection of recommended sites for English writing
 									learning
 								</p>
@@ -225,7 +255,7 @@ function EnglishStudyPage() {
 							<h1 className="font-serif text-2xl uppercase mt-5">
 								more like this
 							</h1>
-							<p className="mt-10">coming soon ...</p>
+							<p className="mt-10 h-40">coming soon ...</p>
 						</div>
 					</section>
 				</div>
