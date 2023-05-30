@@ -1,16 +1,21 @@
+"use client";
 import React from "react";
-
-export const metadata = {
-	title: "About | Pikurate",
-};
+import { useState } from "react";
+import SocialShare from "../components/SocialShare";
+import Modal from "../components/Modal";
 
 function AboutPage() {
+	const metadata = {
+		title: "About | Pikurate",
+	};
+
+	const [isModalVisible, setIsModalVisible] = useState(false);
 	return (
 		<div className="w-screen min-h-screen flex flex-row">
 			<div className="w-1/4 h-full " />
 			<div className="border-x ">
-				<h1 className="pb-10 mt-5 text-lg flex justify-center">
-					Welcome to the About Page
+				<h1 className="pb-10 mt-5 text-2xl flex justify-center">
+					Welcome to Pikurate
 				</h1>
 				<p className=" mx-10">
 					Welcome to our platform! At Pikurate, we are passionate about curating
@@ -44,6 +49,32 @@ function AboutPage() {
 					choosing Pikurate. Lets embark on this knowledge-driven adventure
 					together!
 				</p>
+
+				<div className="bg-gray-50 rounded-xl flex flex-row gap-5 mt-5 items-center">
+					<button
+						data-modal-target="defaultModal"
+						data-modal-toggle="defaultModal"
+						type="button"
+						className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5"
+						onClick={() => setIsModalVisible(true)}
+					>
+						Share
+					</button>
+
+					<p className="m-10">
+						If you found Pikurate helpful, please share it with your friends and
+						colleagues.
+					</p>
+				</div>
+				<Modal
+					isVisible={isModalVisible}
+					onClose={() => setIsModalVisible(false)}
+				>
+					<SocialShare
+						link="https://pikurate-blog.vercel.app/"
+						title="Interesting Blog from Pikurate."
+					/>
+				</Modal>
 			</div>
 
 			<div className="w-1/4 h-full " />
