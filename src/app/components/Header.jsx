@@ -11,7 +11,7 @@ const Header = () => {
 					<Link href="/">
 						<Image
 							src={logo}
-							className="w-1/2 h-1/2 md:w-3/4 md:h-3/4 mb-2"
+							className="w-1/2 h-1/2 md:w-25 md:h-25 mb-2"
 							alt="Pikurate Logo"
 						/>
 					</Link>
