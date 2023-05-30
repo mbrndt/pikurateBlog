@@ -10,7 +10,6 @@ import image5 from "../../assets/image5.jpg";
 import image6 from "../../assets/image6.jpg";
 import image7 from "../../assets/image7.jpg";
 import image8 from "../../assets/image8.jpg";
-import { ShareModal } from "@/app/components/ShareModal";
 
 function EnglishStudyPage() {
 	return (
@@ -229,7 +228,6 @@ function EnglishStudyPage() {
 										Sign up for our free social bookmarking service that uses
 										the latest cutting-edge technology.
 									</p>
-									<ShareModal />
 								</div>
 								<div className="bg-gray-50 rounded-xl flex flex-row gap-5 mt-5 items-center">
 									<button className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5">
