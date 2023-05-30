@@ -1,6 +1,8 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import logo from "../../assets/parkjinyoung.jpeg";
 import hero from "../../assets/study.jpg";
 import image1 from "../../assets/image2.jpg";
@@ -10,8 +12,11 @@ import image5 from "../../assets/image5.jpg";
 import image6 from "../../assets/image6.jpg";
 import image7 from "../../assets/image7.jpg";
 import image8 from "../../assets/image8.jpg";
+import Modal from "@/app/components/Modal";
+import SocialShare from "@/app/components/SocialShare";
 
 function EnglishStudyPage() {
+	const [isModalVisible, setIsModalVisible] = useState(false);
 	return (
 		<div className=" w-screen min-h-screen flex flex-row">
 			<div className="md:w-1/4 md:h-full " />
@@ -211,14 +216,25 @@ function EnglishStudyPage() {
 										data-modal-toggle="defaultModal"
 										type="button"
 										className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5"
+										onClick={() => setIsModalVisible(true)}
 									>
 										Share
 									</button>
+
 									<p className="m-5">
 										If you found this page helpful, please share it with your
 										friends and colleagues.
 									</p>
 								</div>
+								<Modal
+									isVisible={isModalVisible}
+									onClose={() => setIsModalVisible(false)}
+								>
+									<SocialShare
+										link="https://pikurate-blog.vercel.app/blog/englishStudy"
+										title="Interesting Blog Post from Pikurate."
+									/>
+								</Modal>
 								<div className="bg-gray-50 rounded-xl flex flex-row gap-5 mt-5 items-center">
 									<button className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 w md:px-5 md:m-5">
 										Sign Up
