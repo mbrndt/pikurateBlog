@@ -10,13 +10,14 @@ import image5 from "../../assets/image5.jpg";
 import image6 from "../../assets/image6.jpg";
 import image7 from "../../assets/image7.jpg";
 import image8 from "../../assets/image8.jpg";
+import { ShareModal } from "@/app/components/ShareModal";
 
 function EnglishStudyPage() {
 	return (
 		<div className=" w-screen min-h-screen flex flex-row">
 			<div className="md:w-1/4 md:h-full " />
 			<div className="md:border-x ml-3 md:pl-5 pr-5 md:w-full">
-				<div className="flex flex-row w-full border-b gap-10 pl-10 text-xl py-2 xs sticky top-0 bg-white">
+				<div className="flex flex-row w-full border-b gap-10 pl-10 text-xl py-2 xs sticky top-0 backdrop-blur-sm bg-white/30">
 					<p className="capitalize">Websites about studying English</p>
 				</div>
 				<div className="mt-10">
@@ -26,7 +27,7 @@ function EnglishStudyPage() {
 						</h1>
 					</div>
 
-					<div className="flex flex-col bg-gray-100 rounded-lg w-fit mt-10">
+					<div className="flex flex-col bg-gray-100 rounded-lg w-fit mt-10 ">
 						<div className="flex flex-row gap-5 pl-2 mt-5">
 							<Link href="/blog/curators" className="flex flex-row gap-3">
 								<Image src={logo} alt="" className="rounded-full w-10 h-10" />
@@ -206,7 +207,13 @@ function EnglishStudyPage() {
 							<p>This Page has 264,094 views</p>
 							<div className="">
 								<div className="bg-gray-50 rounded-xl flex flex-row gap-5 mt-5 items-center">
-									<button className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5">
+									<button
+										data-modal-target="defaultModal"
+										data-modal-toggle="defaultModal"
+										type="button"
+										className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5"
+										onClick={ShareModal}
+									>
 										Share
 									</button>
 									<p className="m-5">
@@ -222,6 +229,7 @@ function EnglishStudyPage() {
 										Sign up for our free social bookmarking service that uses
 										the latest cutting-edge technology.
 									</p>
+									<ShareModal />
 								</div>
 								<div className="bg-gray-50 rounded-xl flex flex-row gap-5 mt-5 items-center">
 									<button className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5">
