@@ -236,9 +236,12 @@ function EnglishStudyPage() {
 									/>
 								</Modal>
 								<div className="bg-gray-50 rounded-xl flex flex-row gap-5 mt-5 items-center">
-									<button className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 w md:px-5 md:m-5">
+									<Link
+										href="https://www.pikurate.com/"
+										className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 w md:px-5 md:m-5"
+									>
 										Sign Up
-									</button>
+									</Link>
 									<p className="m-5">
 										Sign up for our free social bookmarking service that uses
 										the latest cutting-edge technology.
