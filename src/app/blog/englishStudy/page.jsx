@@ -211,7 +211,6 @@ function EnglishStudyPage() {
 										data-modal-toggle="defaultModal"
 										type="button"
 										className="uppercase ml-2 font-bold border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5"
-										onClick={ShareModal}
 									>
 										Share
 									</button>
