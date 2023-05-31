@@ -24,7 +24,15 @@ function EnglishStudyPage(image, link, title, description) {
 		<div className="max-w-screen min-h-screen flex flex-row md:justify-center">
 			<div className="md:w-32 md:h-full shrink-0 bg-gray-300"></div>
 			<div className="md:border-x ml-3 md:pl-5 pr-5 w-screen md:w-3/4">
-				<BPHeader title="Websites About Studying English" />
+				<div className="flex flex-row overflow-x-auto whitespace-nowrap border-b gap-10 pl-10 text-xl py-2 sticky top-0 backdrop-blur-sm bg-white/30">
+					<Link
+						href="/blog/englishStudy#first-section"
+						scroll={false}
+						className="capitalize"
+					>
+						Websites about studying English
+					</Link>
+				</div>
 				<div className="mt-10">
 					<div>
 						<h1 className="text-4xl m-5 pt-5">
