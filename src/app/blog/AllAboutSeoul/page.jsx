@@ -18,7 +18,7 @@ import PictureWithLink from "@/app/components/PictureWithLink";
 import PikurateBPDesc from "@/app/components/PikurateBPDesc";
 import BPHeader from "@/app/components/BPHeader";
 
-function EnglishStudyPage(image, link, title, description) {
+function AllAboutSeoulPage(image, link, title, description) {
 	const [isModalVisible, setIsModalVisible] = useState(false);
 	return (
 		<div className="max-w-screen min-h-screen flex flex-row md:justify-center">
@@ -193,4 +193,4 @@ function EnglishStudyPage(image, link, title, description) {
 	);
 }
 
-export default EnglishStudyPage;
+export default AllAboutSeoulPage;
