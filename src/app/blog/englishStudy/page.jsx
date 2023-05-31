@@ -18,11 +18,17 @@ import SocialShare from "@/app/components/SocialShare";
 function EnglishStudyPage() {
 	const [isModalVisible, setIsModalVisible] = useState(false);
 	return (
-		<div className=" w-screen min-h-screen flex flex-row">
-			<div className="md:w-1/4 md:h-full " />
-			<div className="md:border-x ml-3 md:pl-5 pr-5 md:w-full">
-				<div className="flex flex-row w-full border-b gap-10 pl-10 text-xl py-2 xs sticky top-0 backdrop-blur-sm bg-white/30">
-					<p className="capitalize">Websites about studying English</p>
+		<div className="max-w-screen min-h-screen flex flex-row md:justify-center">
+			<div className="md:w-32 md:h-full shrink-0 bg-gray-300"></div>
+			<div className="md:border-x ml-3 md:pl-5 pr-5 w-screen md:w-3/4">
+				<div className="flex flex-row overflow-x-auto whitespace-nowrap border-b gap-10 pl-10 text-xl py-2 sticky top-0 backdrop-blur-sm bg-white/30">
+					<Link
+						href="/blog/englishStudy#first-section"
+						scroll={false}
+						className="capitalize"
+					>
+						Websites about studying English
+					</Link>
 				</div>
 				<div className="mt-10">
 					<div>
@@ -70,7 +76,7 @@ function EnglishStudyPage() {
 					<section>
 						{/* blog cards */}
 						<div className="flex flex-col items-center">
-							<h1 className="text-4xl m-5 capitalize">
+							<h1 id="first-section" className="text-4xl m-5 capitalize">
 								Websites about studying English
 							</h1>
 							<Image
@@ -284,7 +290,7 @@ function EnglishStudyPage() {
 					</section>
 				</div>
 			</div>
-			<div className="md:w-1/4 md:h-full " />
+			<div className="md:w-32 md:h-full shrink-0 bg-gray-300"></div>
 		</div>
 	);
 }
