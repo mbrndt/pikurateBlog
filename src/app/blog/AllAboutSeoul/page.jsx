@@ -3,20 +3,25 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+
 import logo from "../../assets/parkjinyoung.jpeg";
-import hero from "../../assets/study.jpg";
+import Seoul from "../../assets/seoul.jpg";
+import seoul5 from "../../assets/seoul5.jpg";
 import image1 from "../../assets/image2.jpg";
 import image3 from "../../assets/image3.jpg";
-import image4 from "../../assets/image4.jpg";
-import image5 from "../../assets/image5.jpg";
-import image6 from "../../assets/image6.jpg";
-import image7 from "../../assets/image7.jpg";
-import image8 from "../../assets/image8.jpg";
+import LeoSong from "../../assets/leoProfile.png";
+import Kor90day from "../../assets/90dayKorean.png";
+import ToGo from "../../assets/ToGo.jpg";
+import KoreanFood from "../../assets/KoreanFood.jpg";
+import SeoulView from "../../assets/SeoulView.jpg";
+import SeoulStreet from "../../assets/SeoulStreet.jpg";
+import SeoulCafe from "../../assets/seoulCafe.jpg";
+
 import Modal from "@/app/components/Modal";
 import SocialShare from "@/app/components/SocialShare";
 import PictureWithLink from "@/app/components/PictureWithLink";
 import PikurateBPDesc from "@/app/components/PikurateBPDesc";
-import BPHeader from "@/app/components/BPHeader";
+import BPDirectory from "@/app/components/BPDirectory";
 
 function AllAboutSeoulPage(image, link, title, description) {
 	const [isModalVisible, setIsModalVisible] = useState(false);
@@ -24,21 +29,99 @@ function AllAboutSeoulPage(image, link, title, description) {
 		<div className="max-w-screen min-h-screen flex flex-row md:justify-center">
 			<div className="md:w-32 md:h-full shrink-0 bg-gray-300"></div>
 			<div className="md:border-x ml-3 md:pl-5 pr-5 w-screen md:w-3/4">
-				<BPHeader title="Websites About Studying English" />
+				<div className="flex flex-row overflow-x-auto whitespace-nowrap border-b gap-10 pl-10 text-xl py-2 sticky top-0 backdrop-blur-sm bg-white/30">
+					<Link
+						href="/blog/AllAboutSeoul#section1"
+						scroll={false}
+						className="capitalize"
+					>
+						About Seoul
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section2"
+						scroll={false}
+						className="capitalize"
+					>
+						To Go
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section3"
+						scroll={false}
+						className="capitalize"
+					>
+						To Eat
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section4"
+						scroll={false}
+						className="capitalize"
+					>
+						Chicken and Beer
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section5"
+						scroll={false}
+						className="capitalize"
+					>
+						For Fun
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section6"
+						scroll={false}
+						className="capitalize"
+					>
+						Night Clubs
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section7"
+						scroll={false}
+						className="capitalize"
+					>
+						Night Culture
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section8"
+						scroll={false}
+						className="capitalize"
+					>
+						Subway Tour
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section9"
+						scroll={false}
+						className="capitalize"
+					>
+						Art Spot
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section10"
+						scroll={false}
+						className="capitalize"
+					>
+						Exhibition
+					</Link>
+				</div>
 				<div className="mt-10">
 					<div>
-						<h1 className="text-4xl m-5 pt-5">
-							A Collection Of Helpful Sites For Studying English
+						<h1 className="text-4xl m-5 pt-5 capitalize">
+							Everything you need to know about Seoul
 						</h1>
 					</div>
 
 					<div className="flex flex-col bg-gray-100 rounded-lg w-fit mt-10 ">
 						<div className="flex flex-row gap-5 pl-2 mt-5">
-							<Link href="/blog/curators" className="flex flex-row gap-3">
-								<Image src={logo} alt="" className="rounded-full w-10 h-10" />
+							<Link
+								href="/blog/AllAboutSeoul/curators"
+								className="flex flex-row gap-3"
+							>
+								<Image
+									src={LeoSong}
+									alt=""
+									className="rounded-full w-10 h-10"
+								/>
 								<p className="text-blue-600 self-center">
-									Leo.song
-									<span className="text-black px-2">and</span> 23 more curators
+									Leo Song
+									<span className="text-black px-2">and</span> 5 more curators
 								</p>
 							</Link>
 						</div>
@@ -46,68 +129,430 @@ function AllAboutSeoulPage(image, link, title, description) {
 							<p className="text-blue-600">
 								duolingo.com and 223 more references
 							</p>
-							<p className="text-slate-400 pb-5">last update: 1w ago</p>
+							<p className="text-slate-400 pb-5">last update: 1 ago</p>
 						</div>
 					</div>
-					<PikurateBPDesc image={hero} />
+					<PikurateBPDesc image={Seoul} />
+					<BPDirectory />
 					<section>
-						{/* blog cards */}
-						<div className="flex flex-col items-center">
-							<h1 id="first-section" className="text-4xl m-5 capitalize">
-								Websites about studying English
-							</h1>
-							<Image
-								src={image3}
-								alt=""
-								className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
-							/>
-							<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
-								Discover our carefully curated collection of English learning
-								resources, featuring a variety of tools, tutorials, and practice
-								materials to support your language journey.
-							</p>
-							<div className="flex items-center gap-5 border-b mt-5">
-								<PictureWithLink
-									image={image1}
-									link="https://truecloset.tistory.com/91"
-									title="영어 작문을 도와주는 사이트 모음 -"
-									description="Explore this handy collection of grammar and spelling check
-									tools for English, designed to help you enhance your writing
-									skills and ensure accuracy in your written communication."
+						<section id="section1">
+							{/* blog cards */}
+							<div className="flex flex-col items-center">
+								<h1 className="text-4xl m-5 capitalize">All About Seoul</h1>
+								<Image
+									src={seoul5}
+									alt=""
+									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
 								/>
-							</div>
-							<PictureWithLink
-								image={image4}
-								link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
-								title="영어공부혼자하기 유용한 사이트 모음 37개 -"
-								description="Explore an extensive range of subjects designed to improve
+								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
+									Seoul, the capital of South Korea, is a bustling metropolis
+									that seamlessly blends ancient traditions with modern
+									innovations. From stunning palaces and serene temples to
+									vibrant shopping districts and thriving nightlife, Seoul
+									offers a diverse range of experiences. Delight in the
+									city&apos;s renowned street food, immerse yourself in its
+									vibrant K-pop culture, and explore its rich history through
+									majestic landmarks. With its dynamic energy, captivating
+									sights, and warm hospitality, Seoul is a city that never fails
+									to captivate and leave a lasting impression on visitors.
+								</p>
+								<div className="flex items-center gap-5 border-b mt-5 flex-col">
+									<PictureWithLink
+										image={Seoul}
+										link="https://ginabearsblog.com/things-no-one-tells-you-about-korea"
+										title="75 Things No One Tells You About Korea"
+										description="Sometimes, Korea be living in the year 3021 with their unique inventions and technology advances. You’ll see brand new shiny building and also buildings that are older than the United States and Canada combined. You’ll see them make leaps and bounds. Other times you’ll wonder if you’re living in 1950 the way some people still treat women like second class citizens. So here it is, my friends. Read on for everything you didn’t know about Korea."
+									/>
+									<PictureWithLink
+										image={Kor90day}
+										link="https://www.90daykorean.com/interesting-facts-about-south-korea"
+										title="Facts About South Korea – 30 Interesting Things to Learn"
+										description="Explore an extensive range of subjects designed to improve
 								your vocabulary, grammar, speaking, and writing abilities,
 								empowering you to excel in English communication across
 								various domains."
-							/>
-
-							<PictureWithLink
-								image={image5}
-								link="https://oxchat.tistory.com/263"
-								title="영어작문을 도와주는 유용한 무료사이트, Just the Word! -"
-								description="Explores the website “Just the Word!”"
-							/>
-
-							<PictureWithLink
-								image={image7}
-								link="https://livingalonewell.tistory.com/17"
-								title="영어공부에 유용한 무료 사이트 모음 (케이크 어플, 그래멀리,
-									유글리쉬, yarn, 유튜브 영어는반복이다) -"
-								description="free sites that will help you learn english"
-							/>
-							<PictureWithLink
-								image={image8}
-								link="https://m.blog.naver.com/icyee/130172016491"
-								title="영작학습을 위한 추천사이트 모음 (퍼옴) -"
-								description="A collection of recommended sites for English writing
-								learning"
-							/>
-						</div>
+									/>
+									<PictureWithLink
+										image={SeoulView}
+										link="https://daebak.co/en-kr/blogs/magazine/25-fun-facts-about-korea"
+										title="25 Fun Facts About Korea!"
+										description="Learning about a new country can be exciting, especially if you’re learning fun and interesting facts along the way! Though small, South Korea is a very diverse and exciting country. Here are some interesting tidbits and fun facts about Korea that might make you want to travel to the country today!"
+									/>
+									<PictureWithLink
+										image={SeoulStreet}
+										link="https://www.tripzilla.com/seoul-vs-tokyo/117974"
+										title="Seoul or Tokyo: Which East Asian Capital Should You See First?"
+										description="Sure, there’s not really a right or wrong answer to which city in Asia is better for first-timers. Nonetheless, it does help to identify the things you look for when travelling somewhere you haven’t been to before — as well as what you can expect from these. Either way, we’re willing to bet that the more time you spend in either Seoul or Tokyo, the more you'll fall in love with the place! Read on to find out which one is a better fit for you. "
+									/>
+									<PictureWithLink
+										image={SeoulCafe}
+										link="https://heyexplorer.com/what-is-seoul-known-and-famous-for/"
+										title="25 Things Seoul is Known and Famous For"
+										description="Seoul is known for its vibrant districts, eclectic fashion scene, delicious street food, and for being the birthplace of K-pop and Hallyu. Despite being a technologically advanced country, Seoul is still famous for its historical sites and traditional culture."
+									/>
+								</div>
+							</div>
+						</section>
+						<section id="section2">
+							{/* blog cards */}
+							<div className="flex flex-col items-center">
+								<h1 className="text-4xl m-5 capitalize">To Go</h1>
+								<Image
+									src={ToGo}
+									alt=""
+									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
+								/>
+								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
+									Discover Seoul like never before with our curated collection
+									of links in the About Seoul section. Explore the vibrant
+									capital city of South Korea through various resources,
+									including travel guides, historical insights, local cuisine,
+									cultural experiences, and more. Immerse yourself in the rich
+									heritage and modern allure of Seoul as you delve into these
+									handpicked links that showcase the citys unique charm and
+									offer a deeper understanding of its fascinating culture.
+								</p>
+								<div className="flex items-center gap-5 border-b mt-5 flex-col">
+									<PictureWithLink
+										image={Seoul}
+										link="https://truecloset.tistory.com/91"
+										title="영어 작문을 도와주는 사이트 모음 -"
+										description="Explore this handy collection of grammar and spelling check
+									tools for English, designed to help you enhance your writing
+									skills and ensure accuracy in your written communication."
+									/>
+									<PictureWithLink
+										image={Kor90day}
+										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
+										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
+										description="Explore an extensive range of subjects designed to improve
+								your vocabulary, grammar, speaking, and writing abilities,
+								empowering you to excel in English communication across
+								various domains."
+									/>
+								</div>
+							</div>
+						</section>
+						<section id="section3">
+							{/* blog cards */}
+							<div className="flex flex-col items-center">
+								<h1 className="text-4xl m-5 capitalize">To Eat</h1>
+								<Image
+									src={KoreanFood}
+									alt=""
+									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
+								/>
+								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
+									Discover Seoul like never before with our curated collection
+									of links in the About Seoul section. Explore the vibrant
+									capital city of South Korea through various resources,
+									including travel guides, historical insights, local cuisine,
+									cultural experiences, and more. Immerse yourself in the rich
+									heritage and modern allure of Seoul as you delve into these
+									handpicked links that showcase the citys unique charm and
+									offer a deeper understanding of its fascinating culture.
+								</p>
+								<div className="flex items-center gap-5 border-b mt-5 flex-col">
+									<PictureWithLink
+										image={Seoul}
+										link="https://truecloset.tistory.com/91"
+										title="영어 작문을 도와주는 사이트 모음 -"
+										description="Explore this handy collection of grammar and spelling check
+									tools for English, designed to help you enhance your writing
+									skills and ensure accuracy in your written communication."
+									/>
+									<PictureWithLink
+										image={Kor90day}
+										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
+										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
+										description="Explore an extensive range of subjects designed to improve
+								your vocabulary, grammar, speaking, and writing abilities,
+								empowering you to excel in English communication across
+								various domains."
+									/>
+								</div>
+							</div>
+						</section>
+						<section id="section4">
+							{/* blog cards */}
+							<div className="flex flex-col items-center">
+								<h1 className="text-4xl m-5 capitalize">Chicken and Beer</h1>
+								<Image
+									src={KoreanFood}
+									alt=""
+									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
+								/>
+								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
+									Discover Seoul like never before with our curated collection
+									of links in the About Seoul section. Explore the vibrant
+									capital city of South Korea through various resources,
+									including travel guides, historical insights, local cuisine,
+									cultural experiences, and more. Immerse yourself in the rich
+									heritage and modern allure of Seoul as you delve into these
+									handpicked links that showcase the citys unique charm and
+									offer a deeper understanding of its fascinating culture.
+								</p>
+								<div className="flex items-center gap-5 border-b mt-5 flex-col">
+									<PictureWithLink
+										image={Seoul}
+										link="https://truecloset.tistory.com/91"
+										title="영어 작문을 도와주는 사이트 모음 -"
+										description="Explore this handy collection of grammar and spelling check
+									tools for English, designed to help you enhance your writing
+									skills and ensure accuracy in your written communication."
+									/>
+									<PictureWithLink
+										image={Kor90day}
+										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
+										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
+										description="Explore an extensive range of subjects designed to improve
+								your vocabulary, grammar, speaking, and writing abilities,
+								empowering you to excel in English communication across
+								various domains."
+									/>
+								</div>
+							</div>
+						</section>
+						<section id="section5">
+							{/* blog cards */}
+							<div className="flex flex-col items-center">
+								<h1 className="text-4xl m-5 capitalize">For Fun</h1>
+								<Image
+									src={KoreanFood}
+									alt=""
+									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
+								/>
+								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
+									Discover Seoul like never before with our curated collection
+									of links in the About Seoul section. Explore the vibrant
+									capital city of South Korea through various resources,
+									including travel guides, historical insights, local cuisine,
+									cultural experiences, and more. Immerse yourself in the rich
+									heritage and modern allure of Seoul as you delve into these
+									handpicked links that showcase the citys unique charm and
+									offer a deeper understanding of its fascinating culture.
+								</p>
+								<div className="flex items-center gap-5 border-b mt-5 flex-col">
+									<PictureWithLink
+										image={Seoul}
+										link="https://truecloset.tistory.com/91"
+										title="영어 작문을 도와주는 사이트 모음 -"
+										description="Explore this handy collection of grammar and spelling check
+									tools for English, designed to help you enhance your writing
+									skills and ensure accuracy in your written communication."
+									/>
+									<PictureWithLink
+										image={Kor90day}
+										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
+										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
+										description="Explore an extensive range of subjects designed to improve
+								your vocabulary, grammar, speaking, and writing abilities,
+								empowering you to excel in English communication across
+								various domains."
+									/>
+								</div>
+							</div>
+						</section>
+						<section id="section6">
+							{/* blog cards */}
+							<div className="flex flex-col items-center">
+								<h1 className="text-4xl m-5 capitalize">Night Clubs</h1>
+								<Image
+									src={KoreanFood}
+									alt=""
+									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
+								/>
+								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
+									Discover Seoul like never before with our curated collection
+									of links in the About Seoul section. Explore the vibrant
+									capital city of South Korea through various resources,
+									including travel guides, historical insights, local cuisine,
+									cultural experiences, and more. Immerse yourself in the rich
+									heritage and modern allure of Seoul as you delve into these
+									handpicked links that showcase the citys unique charm and
+									offer a deeper understanding of its fascinating culture.
+								</p>
+								<div className="flex items-center gap-5 border-b mt-5 flex-col">
+									<PictureWithLink
+										image={Seoul}
+										link="https://truecloset.tistory.com/91"
+										title="영어 작문을 도와주는 사이트 모음 -"
+										description="Explore this handy collection of grammar and spelling check
+									tools for English, designed to help you enhance your writing
+									skills and ensure accuracy in your written communication."
+									/>
+									<PictureWithLink
+										image={Kor90day}
+										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
+										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
+										description="Explore an extensive range of subjects designed to improve
+								your vocabulary, grammar, speaking, and writing abilities,
+								empowering you to excel in English communication across
+								various domains."
+									/>
+								</div>
+							</div>
+						</section>
+						<section id="section7">
+							{/* blog cards */}
+							<div className="flex flex-col items-center">
+								<h1 className="text-4xl m-5 capitalize">Night Culture</h1>
+								<Image
+									src={KoreanFood}
+									alt=""
+									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
+								/>
+								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
+									Discover Seoul like never before with our curated collection
+									of links in the About Seoul section. Explore the vibrant
+									capital city of South Korea through various resources,
+									including travel guides, historical insights, local cuisine,
+									cultural experiences, and more. Immerse yourself in the rich
+									heritage and modern allure of Seoul as you delve into these
+									handpicked links that showcase the citys unique charm and
+									offer a deeper understanding of its fascinating culture.
+								</p>
+								<div className="flex items-center gap-5 border-b mt-5 flex-col">
+									<PictureWithLink
+										image={Seoul}
+										link="https://truecloset.tistory.com/91"
+										title="영어 작문을 도와주는 사이트 모음 -"
+										description="Explore this handy collection of grammar and spelling check
+									tools for English, designed to help you enhance your writing
+									skills and ensure accuracy in your written communication."
+									/>
+									<PictureWithLink
+										image={Kor90day}
+										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
+										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
+										description="Explore an extensive range of subjects designed to improve
+								your vocabulary, grammar, speaking, and writing abilities,
+								empowering you to excel in English communication across
+								various domains."
+									/>
+								</div>
+							</div>
+						</section>
+						<section id="section8">
+							{/* blog cards */}
+							<div className="flex flex-col items-center">
+								<h1 className="text-4xl m-5 capitalize">Subway Tour</h1>
+								<Image
+									src={KoreanFood}
+									alt=""
+									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
+								/>
+								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
+									Discover Seoul like never before with our curated collection
+									of links in the About Seoul section. Explore the vibrant
+									capital city of South Korea through various resources,
+									including travel guides, historical insights, local cuisine,
+									cultural experiences, and more. Immerse yourself in the rich
+									heritage and modern allure of Seoul as you delve into these
+									handpicked links that showcase the citys unique charm and
+									offer a deeper understanding of its fascinating culture.
+								</p>
+								<div className="flex items-center gap-5 border-b mt-5 flex-col">
+									<PictureWithLink
+										image={Seoul}
+										link="https://truecloset.tistory.com/91"
+										title="영어 작문을 도와주는 사이트 모음 -"
+										description="Explore this handy collection of grammar and spelling check
+									tools for English, designed to help you enhance your writing
+									skills and ensure accuracy in your written communication."
+									/>
+									<PictureWithLink
+										image={Kor90day}
+										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
+										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
+										description="Explore an extensive range of subjects designed to improve
+								your vocabulary, grammar, speaking, and writing abilities,
+								empowering you to excel in English communication across
+								various domains."
+									/>
+								</div>
+							</div>
+						</section>
+						<section id="section9">
+							{/* blog cards */}
+							<div className="flex flex-col items-center">
+								<h1 className="text-4xl m-5 capitalize">Art Spot</h1>
+								<Image
+									src={KoreanFood}
+									alt=""
+									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
+								/>
+								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
+									Discover Seoul like never before with our curated collection
+									of links in the About Seoul section. Explore the vibrant
+									capital city of South Korea through various resources,
+									including travel guides, historical insights, local cuisine,
+									cultural experiences, and more. Immerse yourself in the rich
+									heritage and modern allure of Seoul as you delve into these
+									handpicked links that showcase the citys unique charm and
+									offer a deeper understanding of its fascinating culture.
+								</p>
+								<div className="flex items-center gap-5 border-b mt-5 flex-col">
+									<PictureWithLink
+										image={Seoul}
+										link="https://truecloset.tistory.com/91"
+										title="영어 작문을 도와주는 사이트 모음 -"
+										description="Explore this handy collection of grammar and spelling check
+									tools for English, designed to help you enhance your writing
+									skills and ensure accuracy in your written communication."
+									/>
+									<PictureWithLink
+										image={Kor90day}
+										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
+										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
+										description="Explore an extensive range of subjects designed to improve
+								your vocabulary, grammar, speaking, and writing abilities,
+								empowering you to excel in English communication across
+								various domains."
+									/>
+								</div>
+							</div>
+						</section>
+						<section id="section10">
+							{/* blog cards */}
+							<div className="flex flex-col items-center">
+								<h1 className="text-4xl m-5 capitalize">Exhibition</h1>
+								<Image
+									src={KoreanFood}
+									alt=""
+									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
+								/>
+								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
+									Discover Seoul like never before with our curated collection
+									of links in the About Seoul section. Explore the vibrant
+									capital city of South Korea through various resources,
+									including travel guides, historical insights, local cuisine,
+									cultural experiences, and more. Immerse yourself in the rich
+									heritage and modern allure of Seoul as you delve into these
+									handpicked links that showcase the citys unique charm and
+									offer a deeper understanding of its fascinating culture.
+								</p>
+								<div className="flex items-center gap-5 border-b mt-5 flex-col">
+									<PictureWithLink
+										image={Seoul}
+										link="https://truecloset.tistory.com/91"
+										title="영어 작문을 도와주는 사이트 모음 -"
+										description="Explore this handy collection of grammar and spelling check
+									tools for English, designed to help you enhance your writing
+									skills and ensure accuracy in your written communication."
+									/>
+									<PictureWithLink
+										image={Kor90day}
+										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
+										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
+										description="Explore an extensive range of subjects designed to improve
+								your vocabulary, grammar, speaking, and writing abilities,
+								empowering you to excel in English communication across
+								various domains."
+									/>
+								</div>
+							</div>
+						</section>
 					</section>
 					<section>
 						{/* share buttons and comment section */}
