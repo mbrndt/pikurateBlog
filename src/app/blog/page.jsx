@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import React from "react";
 import study from "../assets/study.jpg";
+import seoul from "../assets/seoul.jpg";
 import BPCard from "../components/BPCard";
 
 export const metadata = {

@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import BPCard from "@/app/components/BPCard";
 import logo from "../../assets/parkjinyoung.jpeg";
 import hero from "../../assets/study.jpg";
 import image1 from "../../assets/image2.jpg";
@@ -12,6 +13,7 @@ import image5 from "../../assets/image5.jpg";
 import image6 from "../../assets/image6.jpg";
 import image7 from "../../assets/image7.jpg";
 import image8 from "../../assets/image8.jpg";
+import seoul from "../../assets/seoul.jpg";
 import Modal from "@/app/components/Modal";
 import SocialShare from "@/app/components/SocialShare";
 import PictureWithLink from "@/app/components/PictureWithLink";
@@ -179,6 +181,12 @@ function EnglishStudyPage(image, link, title, description) {
 							<h1 className="font-serif text-2xl uppercase mt-5">
 								more like this
 							</h1>
+							<BPCard
+								image={seoul}
+								link="/blog/AllAboutSeoul"
+								title="All About Seoul"
+								desc="Here, you will find a curated selection of resources and tools to support your English language learning journey."
+							/>
 							<p className="mt-10 h-40">coming soon ...</p>
 						</div>
 					</section>

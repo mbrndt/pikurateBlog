@@ -16,6 +16,8 @@ import KoreanFood from "../../assets/KoreanFood.jpg";
 import SeoulView from "../../assets/SeoulView.jpg";
 import SeoulStreet from "../../assets/SeoulStreet.jpg";
 import SeoulCafe from "../../assets/seoulCafe.jpg";
+import brokeback from "../../assets/brokeback.jpeg";
+import coex from "../../assets/coex.jpg";
 
 import Modal from "@/app/components/Modal";
 import SocialShare from "@/app/components/SocialShare";
@@ -196,39 +198,65 @@ function AllAboutSeoulPage(image, link, title, description) {
 						<section id="section2">
 							{/* blog cards */}
 							<div className="flex flex-col items-center">
-								<h1 className="text-4xl m-5 capitalize">To Go</h1>
+								<h1 className="text-4xl m-5 capitalize">To Do</h1>
 								<Image
 									src={ToGo}
 									alt=""
 									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
 								/>
 								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
-									Discover Seoul like never before with our curated collection
-									of links in the About Seoul section. Explore the vibrant
-									capital city of South Korea through various resources,
-									including travel guides, historical insights, local cuisine,
-									cultural experiences, and more. Immerse yourself in the rich
-									heritage and modern allure of Seoul as you delve into these
-									handpicked links that showcase the citys unique charm and
-									offer a deeper understanding of its fascinating culture.
+									Embark on a thrilling adventure in Seoul with our link list
+									featuring an array of exciting activities and experiences to
+									enjoy in the city. Discover hidden gems and popular
+									attractions, indulge in mouthwatering cuisine, shop at vibrant
+									markets, immerse yourself in cultural festivals, and explore
+									the dynamic neighborhoods that make Seoul a captivating
+									destination. Whether you&apos;re a history enthusiast, a food
+									lover, a fashionista, or simply seeking unique adventures, our
+									curated list of things to do in Seoul will inspire you to make
+									the most of your visit and create unforgettable memories.
 								</p>
 								<div className="flex items-center gap-5 border-b mt-5 flex-col">
 									<PictureWithLink
 										image={Seoul}
-										link="https://truecloset.tistory.com/91"
-										title="영어 작문을 도와주는 사이트 모음 -"
-										description="Explore this handy collection of grammar and spelling check
-									tools for English, designed to help you enhance your writing
-									skills and ensure accuracy in your written communication."
+										link="https://www.wapititravel.com/blog/en/things-to-do-in-seoul/"
+										title="39 EPIC things to do in Seoul perfect for first timers"
+										description="Seoul is a bustling city full of old palaces and modern skyscrapers. In Seoul, you wander seamlessly from charming old streets into wide boulevards with towering skyscrapers. 
+
+										You can shop till you drop for the newest gadgets and dive into the nightlife in the trendy and cosmopolitan Itaewon district.
+										
+										The view from the top of N Seoul Tower is breathtaking but we were completely blown away by the views of Seoul from Bukhansan National Park. 
+										
+										This park with its imposing mountains and historic temples borders the city in the North and is a great place to unwind.
+										
+										Here we compiled 39 of our favorite things to do in Seoul, South Korea.
+										
+										These include some of the best places to visit in Seoul, the most popular Seoul attractions, and ideas for getting more off the beaten track. "
 									/>
 									<PictureWithLink
-										image={Kor90day}
-										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
-										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
-										description="Explore an extensive range of subjects designed to improve
-								your vocabulary, grammar, speaking, and writing abilities,
-								empowering you to excel in English communication across
-								various domains."
+										image={SeoulView}
+										link="https://www.travellens.co/top-20-things-to-do-in-seoul/"
+										title="50 Best Things to Do in Seoul
+										"
+										description="Culture wraps thick around every street, shop and social interactions; for all of Seoul’s explosive growth in recent decades, its strict traditions and national pride shadows every step.
+
+										And this all-encompassing Korea-ness isn’t expressed through grand monuments and heritage sites; rather, it seeps through the everyday food markets, trendy spaces and budget entertainments.
+										
+										Approach Seoul through this list of local attractions and characterizing sites for a rounded insight into this evolving city."
+									/>
+									<PictureWithLink
+										image={brokeback}
+										link="https://www.thebrokebackpacker.com/best-places-to-visit-in-seoul/"
+										title="34 BEST Places to Visit in Seoul (Attraction Guide for 2023)"
+										description="The idea of traveling in Seoul can seem a little intimidating. It’s a sprawling metropolis and doesn’t quite have the complete ease of its East Asian neighbor Japan. However, Seoul is actually a very safe city and is popular amongst tourists, so the tourist trails are well worn and easy to explore.
+
+										With this easy guide, you’ll find it easy to travel to Seoul and come back with stories and pictures that other people just can’t match! There are a lot of cool places to visit in Seoul, so let’s get to it!"
+									/>
+									<PictureWithLink
+										image={coex}
+										link="https://www.atlasobscura.com/things-to-do/south-korea"
+										title="The Atlas Obscura Guide To South Korea"
+										description="88 Cool, Hidden, and Unusual Things to Do in South Korea. Including Attractions, Food and Drink and more."
 									/>
 								</div>
 							</div>
