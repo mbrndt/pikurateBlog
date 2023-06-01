@@ -1,0 +1,86 @@
+import React from "react";
+import Link from "next/link";
+
+function BPDirectory() {
+	return (
+		<div>
+			<div className="flex flex-col items-center mt-5 bg-gray-50 rounded-md ">
+				<h1 className="item-center text-2xl">Table of Contents</h1>
+				<div className="flex flex-col gap-3 m-5 text-xl">
+					<Link
+						href="/blog/AllAboutSeoul#section1"
+						scroll={false}
+						className="capitalize"
+					>
+						About Seoul
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section2"
+						scroll={false}
+						className="capitalize"
+					>
+						To Go
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section3"
+						scroll={false}
+						className="capitalize"
+					>
+						To Eat
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section4"
+						scroll={false}
+						className="capitalize"
+					>
+						Chicken and Beer
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section5"
+						scroll={false}
+						className="capitalize"
+					>
+						For Fun
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section6"
+						scroll={false}
+						className="capitalize"
+					>
+						Night Clubs
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section7"
+						scroll={false}
+						className="capitalize"
+					>
+						Night Culture
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section8"
+						scroll={false}
+						className="capitalize"
+					>
+						Subway Tour
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section9"
+						scroll={false}
+						className="capitalize"
+					>
+						Art Spot
+					</Link>
+					<Link
+						href="/blog/AllAboutSeoul#section10"
+						scroll={false}
+						className="capitalize"
+					>
+						Exhibition
+					</Link>
+				</div>
+			</div>
+		</div>
+	);
+}
+
+export default BPDirectory;

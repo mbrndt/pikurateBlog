@@ -74,7 +74,7 @@ function EnglishStudyPage(image, link, title, description) {
 								resources, featuring a variety of tools, tutorials, and practice
 								materials to support your language journey.
 							</p>
-							<div className="flex items-center gap-5 border-b mt-5">
+							<div className="flex items-center gap-5 border-b mt-5 flex-col">
 								<PictureWithLink
 									image={image1}
 									link="https://truecloset.tistory.com/91"
@@ -83,38 +83,26 @@ function EnglishStudyPage(image, link, title, description) {
 									tools for English, designed to help you enhance your writing
 									skills and ensure accuracy in your written communication."
 								/>
-							</div>
-							<PictureWithLink
-								image={image4}
-								link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
-								title="영어공부혼자하기 유용한 사이트 모음 37개 -"
-								description="Explore an extensive range of subjects designed to improve
+
+								<PictureWithLink
+									image={image4}
+									link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
+									title="영어공부혼자하기 유용한 사이트 모음 37개 -"
+									description="Explore an extensive range of subjects designed to improve
 								your vocabulary, grammar, speaking, and writing abilities,
 								empowering you to excel in English communication across
 								various domains."
-							/>
-
-							<PictureWithLink
-								image={image5}
-								link="https://oxchat.tistory.com/263"
-								title="영어작문을 도와주는 유용한 무료사이트, Just the Word! -"
-								description="Explores the website “Just the Word!”"
-							/>
-
-							<PictureWithLink
-								image={image7}
-								link="https://livingalonewell.tistory.com/17"
-								title="영어공부에 유용한 무료 사이트 모음 (케이크 어플, 그래멀리,
-									유글리쉬, yarn, 유튜브 영어는반복이다) -"
-								description="free sites that will help you learn english"
-							/>
-							<PictureWithLink
-								image={image8}
-								link="https://m.blog.naver.com/icyee/130172016491"
-								title="영작학습을 위한 추천사이트 모음 (퍼옴) -"
-								description="A collection of recommended sites for English writing
-								learning"
-							/>
+								/>
+								<PictureWithLink
+									image={image4}
+									link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
+									title="영어공부혼자하기 유용한 사이트 모음 37개 -"
+									description="Explore an extensive range of subjects designed to improve
+								your vocabulary, grammar, speaking, and writing abilities,
+								empowering you to excel in English communication across
+								various domains."
+								/>
+							</div>
 						</div>
 					</section>
 					<section>
