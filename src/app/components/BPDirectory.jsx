@@ -40,7 +40,7 @@ function BPDirectory() {
 						scroll={false}
 						className="capitalize"
 					>
-						For Fun
+						Unique Spots
 					</Link>
 					<Link
 						href="/blog/AllAboutSeoul#section6"

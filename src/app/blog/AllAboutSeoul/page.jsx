@@ -18,6 +18,28 @@ import SeoulStreet from "../../assets/seoulStreet.jpg";
 import SeoulCafe from "../../assets/seoulCafe.jpg";
 import brokeback from "../../assets/brokeback.jpeg";
 import coex from "../../assets/coex.jpg";
+import Delivery from "../../assets/deliveryapps.webp";
+import Market from "../../assets/market.jpeg";
+import Gwangjang from "../../assets/gwangjang.webp";
+import Kimbap from "../../assets/kimbap2.webp";
+import Bibimbap from "../../assets/bibimbap.webp";
+import Food from "../../assets/food.jpg";
+import EatDrink from "../../assets/eatdrink.jpg";
+import Beer from "../../assets/beer.jpg";
+import Dongdaemun from "../../assets/Dongdaemun.png";
+import BHC from "../../assets/BHC.png";
+import ChilChil from "../../assets/ChilChil.png";
+import DonChicken from "../../assets/DonChicken.png";
+import Unique from "../../assets/unique.jpg";
+import seoulRain from "../../assets/seoulRain.jpg";
+import seoulEyes from "../../assets/seoulEyes.jpeg";
+import Bridge from "../../assets/Bridge.jpg";
+import Nightclub from "../../assets/nightclub.jpg";
+import Octagon from "../../assets/octagon.webp";
+import Nightlife from "../../assets/nightclub.webp";
+import yt1 from "../../assets/yt1.webp";
+import club2 from "../../assets/club2.webp";
+import club3 from "../../assets/club3.webp";
 
 import Modal from "@/app/components/Modal";
 import SocialShare from "@/app/components/SocialShare";
@@ -65,7 +87,7 @@ function AllAboutSeoulPage(image, link, title, description) {
 						scroll={false}
 						className="capitalize"
 					>
-						For Fun
+						Unique Spots
 					</Link>
 					<Link
 						href="/blog/AllAboutSeoul#section6"
@@ -271,32 +293,59 @@ function AllAboutSeoulPage(image, link, title, description) {
 									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
 								/>
 								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
-									Discover Seoul like never before with our curated collection
-									of links in the About Seoul section. Explore the vibrant
-									capital city of South Korea through various resources,
-									including travel guides, historical insights, local cuisine,
-									cultural experiences, and more. Immerse yourself in the rich
-									heritage and modern allure of Seoul as you delve into these
-									handpicked links that showcase the citys unique charm and
-									offer a deeper understanding of its fascinating culture.
+									Embark on a gastronomic journey through Seoul with our link
+									list highlighting the diverse and mouthwatering food scene of
+									the city. Indulge in traditional Korean dishes like succulent
+									barbecued meats, savory kimchi, and comforting bibimbap.
+									Venture into bustling street markets to savor an array of
+									street food delights, from crispy fried chicken and spicy
+									tteokbokki to steaming hot dumplings. Explore hidden gems and
+									trendy cafes offering unique fusion cuisines and international
+									flavors. Get ready to tantalize your taste buds and discover
+									the culinary treasures that Seoul has to offer.
 								</p>
 								<div className="flex items-center gap-5 border-b mt-5 flex-col">
 									<PictureWithLink
-										image={Seoul}
-										link="https://truecloset.tistory.com/91"
-										title="영어 작문을 도와주는 사이트 모음 -"
-										description="Explore this handy collection of grammar and spelling check
-									tools for English, designed to help you enhance your writing
-									skills and ensure accuracy in your written communication."
+										image={Delivery}
+										link="https://10mag.com/top-5-food-delivery-apps-in-korea-and-how-to-use-them/"
+										title="Top 6 Food Delivery Apps in Korea and How to Use Them"
+										description="Korea is known for its efficient and fast delivery food service. You can order anything from chicken wings and burgers to rice noodles and kimchi jjigae, and you can get even vegan food delivered easily. If you’re not completely confident in your Korean speaking abilities (check out our 10 Free Apps for Learning Korean), there are various Korean food delivery apps in Korea available to erase the anxiety of ordering over the phone. This article will be a comprehensive guide about which foreigner-friendly food delivery apps in Korea to download, how to use them, and key Korean phrases to remember for a great restaurant delivery service."
 									/>
 									<PictureWithLink
-										image={Kor90day}
-										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
-										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
-										description="Explore an extensive range of subjects designed to improve
-								your vocabulary, grammar, speaking, and writing abilities,
-								empowering you to excel in English communication across
-								various domains."
+										image={Market}
+										link="https://www.travelmag.com/articles/vegan-eats-in-seoul/"
+										title="Like a Local: Vegan Eats in Seoul"
+										description="Travelling anywhere as a vegan can be a certified nightmare if you don’t know where to eat, especially in South Korea’s meat-loving capital, Seoul, where guide books are saturated with barbecue and fried chicken restaurants. But in recent years, things have been changing rapidly, particularly in regard to veganism. Seoul’s vegan restaurants are offering their own tastes to the global market."
+									/>
+									<PictureWithLink
+										image={Gwangjang}
+										link="https://theculturetrip.com/asia/south-korea/articles/the-best-places-to-try-street-food-in-seoul/"
+										title="The Best Places to Try Street Food in Seoul"
+										description="With an apparently infinite number of vendors serving up street treats such as hotteok (stuffed pancake), tteokbokki (spicy rice cakes) and odeng (fish cake), Seoul is essentially one big open-air restaurant. Cheap, hearty and delicious, Seoul street food is a must-try on any visit to the capital of South Korea – but if you’re looking for diversity and accessibility, these are some of the best places to sample it."
+									/>
+									<PictureWithLink
+										image={Kimbap}
+										link="https://girleatworld.net/south-korean-food/"
+										title="What to eat in Seoul: 12 Traditional Korean Food You Must Eat in Seoul"
+										description="My love affair with South Korean food started way, way back. As a teenager, I grew up in a community dominated by South Korean immigrants in California. Many of my high school friends were either immigrants from South Korea or descendants of one. When I got to college, my roommates were both Koreans who loved going for a meal in LA’s Korea town or cooking meals at home. It was from hanging out with them that I became very well-versed in South Korean cuisine despite not speaking much Korean."
+									/>
+									<PictureWithLink
+										image={Bibimbap}
+										link="https://theculturetrip.com/asia/south-korea/articles/14-mouth-watering-south-korean-foods-to-try/"
+										title="The Top South Korean Foods to Try"
+										description="In recent years South Korea has become better known for its technology than its food. However, thanks to delicacies like kimchi, which has become a global sensation, things are beginning to change. Here are is a list of South Korean foods you have to try."
+									/>
+									<PictureWithLink
+										image={Food}
+										link="https://www.theguardian.com/travel/2012/nov/28/seoul-south-korea-food-guide-dishes"
+										title="Seoul food: a guide to the top 10 dishes and where to try them"
+										description="There is much more to Korean food than barbecue and kimchi. As BA launch direct UK flights to Seoul on 2 December, here's a guide to the favourite dishes in South Korea's food-mad capital"
+									/>
+									<PictureWithLink
+										image={EatDrink}
+										link="https://www.trazy.com/theme/eat_drink_local_in_seoul"
+										title="Eat and drink like an authentic local in Seoul"
+										description="You might think Korean people only eat kimchi and rice and only drink soju ? Wrong. Korea owns a wide variety of alcoholic drinks which can satisfy the taste of everyone and offers different kind of food. Drinking is part of culture in Korea and it has to be served at the same time with food. Trazy has selected all the best restaurants where you can drink soju, makgeolli and beer with the best Samgyeopsal, Pajeon and Chicken"
 									/>
 								</div>
 							</div>
@@ -306,37 +355,44 @@ function AllAboutSeoulPage(image, link, title, description) {
 							<div className="flex flex-col items-center">
 								<h1 className="text-4xl m-5 capitalize">Chicken and Beer</h1>
 								<Image
-									src={KoreanFood}
+									src={Beer}
 									alt=""
 									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
 								/>
 								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
-									Discover Seoul like never before with our curated collection
-									of links in the About Seoul section. Explore the vibrant
-									capital city of South Korea through various resources,
-									including travel guides, historical insights, local cuisine,
-									cultural experiences, and more. Immerse yourself in the rich
-									heritage and modern allure of Seoul as you delve into these
-									handpicked links that showcase the citys unique charm and
-									offer a deeper understanding of its fascinating culture.
+									Indulge in the perfect combination of chicken and beer in
+									Seoul with our curated list of Google Map links. Discover the
+									best spots in the city to enjoy this popular Korean culinary
+									pairing. From cozy chicken joints to trendy beer bars, each
+									link will guide you to a mouthwatering experience where you
+									can savor deliciously crispy chicken and sip on refreshing
+									brews. Get ready to explore Seoul&apos;s vibrant food scene
+									and treat yourself to the ultimate chicken and beer feast!
 								</p>
 								<div className="flex items-center gap-5 border-b mt-5 flex-col">
 									<PictureWithLink
-										image={Seoul}
-										link="https://truecloset.tistory.com/91"
-										title="영어 작문을 도와주는 사이트 모음 -"
-										description="Explore this handy collection of grammar and spelling check
-									tools for English, designed to help you enhance your writing
-									skills and ensure accuracy in your written communication."
+										image={Dongdaemun}
+										link="https://www.google.com/maps/@/data=!3m6!1e1!3m4!1syfymSnAjqYuMHUKoYbZzpQ!2e0!7i13312!8i6656?entry=ttu"
+										title="Local style chicken and beer (Dongdaemun)"
+										description="Good black pepper chicken and beer. Try the basket!"
 									/>
 									<PictureWithLink
-										image={Kor90day}
+										image={BHC}
 										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
-										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
-										description="Explore an extensive range of subjects designed to improve
-								your vocabulary, grammar, speaking, and writing abilities,
-								empowering you to excel in English communication across
-								various domains."
+										title="BHC Chicken and Beer Plate (Bukhansan)"
+										description="Excellent Fried Chicken Baskets. Perfect for Picnic in the forest or eating after a long hike 10/10."
+									/>
+									<PictureWithLink
+										image={ChilChil}
+										link="https://www.google.com/maps/place/%EC%8F%98%EC%8B%9C%EC%98%A4%ED%98%B8%ED%94%84%EA%B4%91%EC%9E%A5/data=!4m6!3m5!1s0x357cbb34ad9d2a0d:0x5fa620e4affb303c!8m2!3d37.5621141!4d127.0662375!16s%2Fg%2F11g0kj9gdh?entry=ttu"
+										title="ChilChil Kentucky, 1st Floor Chicken and Beer(Dongdaemun)"
+										description="Amazing and cheap boneless chicken. Good for parties of 2 or 3 per order. Must try for expats"
+									/>
+									<PictureWithLink
+										image={DonChicken}
+										link="https://www.google.com/maps/place/%EC%8F%98%EC%8B%9C%EC%98%A4%ED%98%B8%ED%94%84%EA%B4%91%EC%9E%A5/data=!3m1!4b1!4m6!3m5!1s0x357cbb34ad9d2a0d:0x5fa620e4affb303c!8m2!3d37.5621141!4d127.0662375!16s%2Fg%2F11g0kj9gdh?entry=ttu"
+										title="동원 · 장안동 433-20번지 동대문구 서울특별시 KR"
+										description="Don Chicken, open late, good chicken and beer place close to Janghanpyeong (line 5) station"
 									/>
 								</div>
 							</div>
@@ -344,39 +400,47 @@ function AllAboutSeoulPage(image, link, title, description) {
 						<section id="section5">
 							{/* blog cards */}
 							<div className="flex flex-col items-center">
-								<h1 className="text-4xl m-5 capitalize">For Fun</h1>
+								<h1 className="text-4xl m-5 capitalize">Unique Spots</h1>
 								<Image
-									src={KoreanFood}
+									src={Unique}
 									alt=""
 									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
 								/>
 								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
-									Discover Seoul like never before with our curated collection
-									of links in the About Seoul section. Explore the vibrant
-									capital city of South Korea through various resources,
-									including travel guides, historical insights, local cuisine,
-									cultural experiences, and more. Immerse yourself in the rich
-									heritage and modern allure of Seoul as you delve into these
-									handpicked links that showcase the citys unique charm and
-									offer a deeper understanding of its fascinating culture.
+									Uncover the hidden treasures of Seoul with our chapter
+									dedicated to unique and offbeat experiences in the city. Dive
+									into the extraordinary side of Seoul, where you can visit
+									quirky themed cafes, wander through eccentric neighborhoods,
+									explore unconventional museums, engage in traditional
+									activities with a modern twist, and much more. This handpicked
+									collection of unique things to do in Seoul will take you off
+									the beaten path and introduce you to the captivating and
+									unexpected aspects of the city that you won&apos;t find in
+									typical travel guides. Get ready to embark on an unforgettable
+									journey of discovery and create memories that will last a
+									lifetime.
 								</p>
 								<div className="flex items-center gap-5 border-b mt-5 flex-col">
 									<PictureWithLink
-										image={Seoul}
-										link="https://truecloset.tistory.com/91"
-										title="영어 작문을 도와주는 사이트 모음 -"
-										description="Explore this handy collection of grammar and spelling check
-									tools for English, designed to help you enhance your writing
-									skills and ensure accuracy in your written communication."
+										image={seoulRain}
+										link="https://www.boboandchichi.com/99-fantastic-things-to-do-in-seoul/#Title%2011"
+										title="TRULY UNIQUE THINGS TO DO IN SEOUL"
+										description="This is your one stop spot for all the best things to do in Seoul by a couple of Korea lovers that called Seoul home for 3 years!"
+									/>
+
+									<PictureWithLink
+										image={seoulEyes}
+										link="https://cycloscope.net/things-to-do-seoul"
+										title="11 (14?) weird things to do in Seoul: bulging eyes, fake beards and lots of other stuff"
+										description="Things to in Seoul are plenty and so diverse, we spent 7 days here and we enjoyed every single one. Seoul ended up being one of our favorite cities in Asia.
+
+										This article is part of our South Korea travel log series. We spent two months bicycle touring Korea off-the-beaten-path and we loved it."
 									/>
 									<PictureWithLink
-										image={Kor90day}
-										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
-										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
-										description="Explore an extensive range of subjects designed to improve
-								your vocabulary, grammar, speaking, and writing abilities,
-								empowering you to excel in English communication across
-								various domains."
+										image={Bridge}
+										link="https://www.destguides.com/south-korea/seoul/seoul/unusual-things-to-do-in-seoul"
+										title="26 Unique and Unusual Things to Do in Seoul"
+										description="I have combined my favourite fun and quirky things to do in Seoul that you can't miss while here. Some of the activities mentioned don't exist anywhere else in the world! So, if you are interested in finding out more, scroll down to take a look at the 26 top unusual things to do in Seoul."
 									/>
 								</div>
 							</div>
@@ -386,37 +450,52 @@ function AllAboutSeoulPage(image, link, title, description) {
 							<div className="flex flex-col items-center">
 								<h1 className="text-4xl m-5 capitalize">Night Clubs</h1>
 								<Image
-									src={KoreanFood}
+									src={Nightclub}
 									alt=""
 									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
 								/>
 								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
-									Discover Seoul like never before with our curated collection
-									of links in the About Seoul section. Explore the vibrant
-									capital city of South Korea through various resources,
-									including travel guides, historical insights, local cuisine,
-									cultural experiences, and more. Immerse yourself in the rich
-									heritage and modern allure of Seoul as you delve into these
-									handpicked links that showcase the citys unique charm and
-									offer a deeper understanding of its fascinating culture.
+									Experience the vibrant nightlife of Seoul with our section
+									dedicated to nightclubs. Discover the pulsating beats,
+									electrifying atmosphere, and world-class DJs that make
+									Seoul&apos;s club scene truly exceptional. From trendy dance
+									clubs to underground music venues, our curated selection of
+									nightclubs offers an unparalleled opportunity to immerse
+									yourself in the city&apos;s thriving nightlife. Get ready to
+									dance the night away, mingle with fellow partygoers, and
+									create unforgettable memories in the heart of Seoul&apos;s
+									dynamic and energetic clubbing scene.
 								</p>
 								<div className="flex items-center gap-5 border-b mt-5 flex-col">
 									<PictureWithLink
-										image={Seoul}
-										link="https://truecloset.tistory.com/91"
-										title="영어 작문을 도와주는 사이트 모음 -"
-										description="Explore this handy collection of grammar and spelling check
-									tools for English, designed to help you enhance your writing
-									skills and ensure accuracy in your written communication."
+										image={Octagon}
+										link="https://fr.hotels.com/go/south-korea/best-seoul-night-clubs"
+										title="5 Best Nightclubs and Karaoke in Seoul"
+										description="The best nightclubs and karaoke in Seoul attract a steady clientele of local revelers and travelers looking to enjoy a fun night out in South Korea's modern capital. A favorite holiday destination for hard-core dance music fans, the capital city of South Korea hosts numerous nightclubs and bars, as well as international dance festivals such as Ultra, Seoul World DJ Festival, and World Club Dome."
 									/>
 									<PictureWithLink
-										image={Kor90day}
-										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
-										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
-										description="Explore an extensive range of subjects designed to improve
-								your vocabulary, grammar, speaking, and writing abilities,
-								empowering you to excel in English communication across
-								various domains."
+										image={Nightlife}
+										link="https://www.tripzilla.com/clubs-in-seoul/124180"
+										title="12 Most Popular Bars & Clubs in Seoul to Dance the Night Away!"
+										description="If you’re looking to paint the town red in Seoul, we’ve got you covered! Here’s a list of the eight best clubs in Seoul to party so you can fully experience the excitement of Seoul once the sun sets and the neon lights come on! "
+									/>
+									<PictureWithLink
+										image={yt1}
+										link="https://www.youtube.com/watch?v=iJO-Vt2mQR4"
+										title="Clubbing in Korea🤪 guide for foreigners"
+										description="video by Kelsey the Korean, posted on August 2022. This video is about going clubbing from a foreigner's perspective."
+									/>
+									<PictureWithLink
+										image={club2}
+										link="https://www.youtube.com/watch?v=gNvJQCi5Bgs"
+										title="Ultimate Korean Clubbing Guide: What You NEED to Know about Clubs in Korea"
+										description="video by Haeppy, posted on Nov 14, 2017. We talk about all you need to know about Korean clubs, from when to get there, when they are busy, how to get in, what to expect, where we go, and show you what it's like inside a real Korean club! Clubbing in Korea is one of our most favourite things to do. We recommend it to anyone who wants to go out and drink and have fun! If you're rich, get a table!"
+									/>
+									<PictureWithLink
+										image={club3}
+										link="https://www.youtube.com/watch?v=kj7K4H8-I5U"
+										title="(ENG/ESP) My Korean Clubbing Guide (Hongdae, Gangnam, Itaewon, Busan) #SanJuanToSeoul EP. 15"
+										description=" video by Angelita, posted on Aug 29, 2019. This is basically a list of my favorite clubs in Seoul and how to get to them! Learn in 1 video what I learned in a year lmao."
 									/>
 								</div>
 							</div>
