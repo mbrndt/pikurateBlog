@@ -82,22 +82,37 @@ const CuratorPage = () => {
 						<ol type="1" className="m-5">
 							<li className=" mb-5">
 								<Link
-									href="https://www.youtube.com/watch?v=ZVY3NQ0Jq1Q"
+									href="https://www.pikurate.com/pik/c42759f7ace64c0e?category=94984"
 									className=" self-center text-xl mb-5"
 								>
-									1. Example Reference: Number One -{" "}
+									1. Pikurate: Everything You Need to Know About - Seoul, Korea
+									-{" "}
 									<span className="underline">
-										https://www.youtube.com/watch?v=ZVY3NQ0Jq1Q
+										https://www.pikurate.com/pik/c42759f7ace64c0e?category=94984
 									</span>
 								</Link>
 							</li>
 							<li className=" mb-5">
 								<Link
-									href="https://www.youtube.com/watch?v=ZVY3NQ0Jq1Q"
+									href="https://www.seoulsolution.kr/en/content/3323"
 									className=" self-center text-xl mb-5"
 								>
-									2. Second Example: For Refs -{" "}
-									<span className="underline">https://www.ZVY3NQ0Jq1Q</span>
+									2. Seoul Solution: The History of Seoul -{" "}
+									<span className="underline">
+										https://www.seoulsolution.kr/en/content/3323
+									</span>
+								</Link>
+							</li>
+							<li className=" mb-5">
+								<Link
+									href="https://www.koreaherald.com/view.php?ud=20220718000801"
+									className=" self-center text-xl mb-5"
+								>
+									3. The Korea Herald: Seoul Tourism Organization aims to
+									attract 28 million foreign tourists by 2026 -{" "}
+									<span className="underline">
+										https://www.koreaherald.com/view.php?ud=20220718000801
+									</span>
 								</Link>
 							</li>
 						</ol>
