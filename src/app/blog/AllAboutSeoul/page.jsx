@@ -40,6 +40,33 @@ import Nightlife from "../../assets/nightclub.webp";
 import yt1 from "../../assets/yt1.webp";
 import club2 from "../../assets/club2.webp";
 import club3 from "../../assets/club3.webp";
+import Expat from "../../assets/expat.jpg";
+import SeoulNight from "../../assets/seoulNight.jpg";
+import Restaurant from "../../assets/restaurant.jpg";
+import NSeoulTower from "../../assets/NSeoulTower.jpg";
+import Hangang from "../../assets/Hangang.jpg";
+import Evening from "../../assets/Evening.jpg";
+import Subway from "../../assets/subway.jpg";
+import Gate from "../../assets/gate.jpeg";
+import Gate2 from "../../assets/gate2.jpeg";
+import Gangnam from "../../assets/gangnam.jpeg";
+import Songpa from "../../assets/songpa.bmp";
+import Bukchon from "../../assets/Bukchon.jpeg";
+import LotteWorld from "../../assets/LotteWorld.bmp";
+import Dongdaemun1 from "../../assets/Dongdaemun.jpeg";
+import Prison from "../../assets/prison.bmp";
+import Samcheongdong from "../../assets/Samcheong-dong.jpeg";
+import Namsan from "../../assets/namsan.bmp";
+import Yeouido from "../../assets/Yeouido.jpeg";
+import Gwangjang1 from "../../assets/gwangjang.webp";
+import Haneul from "../../assets/Haneul.jpeg";
+import Itaewon from "../../assets/Itaewon.jpeg";
+import Starbucks from "../../assets/starbucks.jpeg";
+import Subway7 from "../../assets/Subway7.jpeg";
+import OlympicPark from "../../assets/OlympicPark.bmp";
+import Subway8 from "../../assets/Subway8.jpeg";
+import Banpodaegyo from "../../assets/Banpodaegyo.jpeg";
+import Square from "../../assets/63Square.jpeg";
 
 import Modal from "@/app/components/Modal";
 import SocialShare from "@/app/components/SocialShare";
@@ -505,37 +532,56 @@ function AllAboutSeoulPage(image, link, title, description) {
 							<div className="flex flex-col items-center">
 								<h1 className="text-4xl m-5 capitalize">Night Culture</h1>
 								<Image
-									src={KoreanFood}
+									src={SeoulNight}
 									alt=""
 									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
 								/>
 								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
-									Discover Seoul like never before with our curated collection
-									of links in the About Seoul section. Explore the vibrant
-									capital city of South Korea through various resources,
-									including travel guides, historical insights, local cuisine,
-									cultural experiences, and more. Immerse yourself in the rich
-									heritage and modern allure of Seoul as you delve into these
-									handpicked links that showcase the citys unique charm and
-									offer a deeper understanding of its fascinating culture.
+									Immerse yourself in the vibrant and diverse nightlife of Seoul
+									with our guide to the city&apos;s after-dark scene. Seoul
+									comes alive at night, offering a plethora of entertainment
+									options for all tastes. Experience the bustling streets lined
+									with lively bars, cozy pubs, and karaoke rooms where you can
+									sing your heart out. Explore the trendy neighborhoods known
+									for their hip cafes, rooftop bars, and stylish lounges.
+									Indulge in the culinary delights of the city&apos;s night
+									markets and late-night food stalls. From live music
+									performances to cultural shows, Seoul&apos;s nightlife has
+									something for everyone. Prepare to immerse yourself in the
+									pulsating energy of Seoul&apos;s night scene and create
+									unforgettable memories in this vibrant city that never sleeps.{" "}
 								</p>
 								<div className="flex items-center gap-5 border-b mt-5 flex-col">
 									<PictureWithLink
-										image={Seoul}
-										link="https://truecloset.tistory.com/91"
-										title="영어 작문을 도와주는 사이트 모음 -"
-										description="Explore this handy collection of grammar and spelling check
-									tools for English, designed to help you enhance your writing
-									skills and ensure accuracy in your written communication."
+										image={Expat}
+										link="https://www.expatinfodesk.com/destinations/seoul/entertainment/night-life"
+										title="Popular Spots for Expats"
+										description="Seoul’s night life is by far some of the best in the world. There are new places that spring up nearly every hour and nightly specials on everything from costume parties at posh clubs with world renowed DJ’s to thirty cent buffalo chicken wings on Tuesdays. Much like NYC you have to stay on top of the social scene in Seoul otherwise you will be left behind, and the native Seoulites are some of the best in the world at this. Below you will find just a few but to the only way to really know what is hot each week, is to pick up an expat magazine or ask around."
 									/>
 									<PictureWithLink
-										image={Kor90day}
-										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
-										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
-										description="Explore an extensive range of subjects designed to improve
-								your vocabulary, grammar, speaking, and writing abilities,
-								empowering you to excel in English communication across
-								various domains."
+										image={Restaurant}
+										link="https://www.koreatravelpost.com/nightlife-in-seoul/"
+										title="A Complete Guide to Nightlife in Seoul, South Korea"
+										description="Seoul has one of the most dynamic nightlife scenes in Asia. Because of it, Seoul is an ideal destination for party animals and night owls. Some might even find it hard to keep up with the locals! 
+Well, grab your party pants and top up your glass with soju to read everything about Seoul’s nightlife."
+									/>
+									<PictureWithLink
+										image={NSeoulTower}
+										link="https://fr.hotels.com/go/south-korea/best-seoul-nightlife"
+										title="15 Best Things to Do After Dinner in Seoul"
+										description="Seoul also has vibrant shopping districts that transform into cultural spaces, with fashion shows, dance performances, and live concerts taking place year-round. Experience the best of South Korea's night-time attractions with our rundown of where to go and what to do at night in Seoul."
+									/>
+									<PictureWithLink
+										image={Hangang}
+										link="https://www.nightflow.com/seoul-nightlife/"
+										title="Seoul Nightlife • A Complete Guide"
+										description="Welcome to Seoul’s #1 nightlife guide. On this page, you’ll discover the vibrant and varied nightlife scene in Seoul. You’ll find the perfect venue for you and your preferred night out. Whether you want to go all-out clubbing or if you’d like a more laid back dinner and drinks with a view, we’ve got your covered."
+									/>
+									<PictureWithLink
+										image={Evening}
+										link="https://www.wapititravel.com/blog/en/things-to-do-in-seoul-at-night/"
+										title="26 EPIC Things To Do In Seoul At Night (2023 guide)"
+										description="From all-night saunas and PC bangs (internet cafés and gaming centers) to other events both mysterious and exotic, Seoul will keep you awake for all the best reasons. So in this Seoul travel blog post, we share the best things to do at night in Seoul."
 									/>
 								</div>
 							</div>
@@ -545,37 +591,147 @@ function AllAboutSeoulPage(image, link, title, description) {
 							<div className="flex flex-col items-center">
 								<h1 className="text-4xl m-5 capitalize">Subway Tour</h1>
 								<Image
-									src={KoreanFood}
+									src={Subway}
 									alt=""
 									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
 								/>
 								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
-									Discover Seoul like never before with our curated collection
-									of links in the About Seoul section. Explore the vibrant
-									capital city of South Korea through various resources,
-									including travel guides, historical insights, local cuisine,
-									cultural experiences, and more. Immerse yourself in the rich
-									heritage and modern allure of Seoul as you delve into these
-									handpicked links that showcase the citys unique charm and
-									offer a deeper understanding of its fascinating culture.
+									Embark on an exciting adventure through Seoul&apos;s subway
+									system with our immersive subway tours. Explore the
+									city&apos;s iconic landmarks, hidden gems, and cultural
+									hotspots conveniently connected by the extensive subway
+									network. Our carefully curated tours provide you with detailed
+									itineraries, including must-visit stations, transfer points,
+									and points of interest along the way. Discover the rich
+									history, vibrant neighborhoods, and breathtaking views as you
+									navigate Seoul&apos;s subway routes. Whether you&apos;re a
+									history buff, a food enthusiast, or simply curious about the
+									city&apos;s diverse attractions, our subway tours offer an
+									engaging and convenient way to experience Seoul&apos;s unique
+									charm. Hop on board and let the subway be your guide to a
+									memorable journey through the heart of the city.{" "}
 								</p>
 								<div className="flex items-center gap-5 border-b mt-5 flex-col">
 									<PictureWithLink
-										image={Seoul}
-										link="https://truecloset.tistory.com/91"
-										title="영어 작문을 도와주는 사이트 모음 -"
-										description="Explore this handy collection of grammar and spelling check
-									tools for English, designed to help you enhance your writing
-									skills and ensure accuracy in your written communication."
+										image={Gate}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_ENG_2_10.jsp"
+										title="Korea Tour by Seoul Subway Line 1"
+										description="Seoul Subway Line 1 runs from Uijeongbu and Dong-Ducheon in the north to Suwon, Cheonan and areas of Chungcheongnam-do in the south. Not only does the route itself have a long history, the line also passes through downtown Seoul and many historically significant attractions as well as shopping centers."
 									/>
 									<PictureWithLink
-										image={Kor90day}
-										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
-										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
-										description="Explore an extensive range of subjects designed to improve
-								your vocabulary, grammar, speaking, and writing abilities,
-								empowering you to excel in English communication across
-								various domains."
+										image={Gate2}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264257"
+										title="DESTINATIONS BY REGION - Sungnyemun Gate (숭례문)"
+										description="Sungnyemun Gate is Korea’s National Treasure No. 1, and its unofficial name is Namdaemun Gate. Sungnyemun Gate is the largest castle gate stone structure with an arched entrance in the middle. There’s a column on top of a platform, raising the roof, distinguishing the upper stories and lower stories of the building. Passageways for traffic are located at the east and west ends of the gate. Different from the other gates, Sungnyemun Gate’s tablet has its name written vertically."
+									/>
+									<PictureWithLink
+										image={Gangnam}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_ENG_2_10_2.jsp"
+										title="Korea Tour by Seoul Subway Line 2"
+										description="Seoul Subway Line 2 connects many of the major downtown areas in Seoul and thus serves as an ideal mean of transportation throughout the city. Major stops along this circular line include Hongik Univ., City Hall, Euljiro1(il)-ga, and Dongdaemun History & Culture Park Stations north of Hangang River, as well as Gangnam, Jamsil, and Samseong Stations in the southern region. Starting from City Hall Station, travelers can explore popular districts such as Hongdae, Edae, Gangnam, and Jamsil or visit the numerous parks, museums and art galleries located near the subway stations."
+									/>
+									<PictureWithLink
+										image={Songpa}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=1542646"
+										title="DESTINATIONS BY REGION - Songpa Naru Park (Seokchonhosu Lake) (송파나루공원 (석촌호수))"
+										description="Songpa Naru Park, also commonly referred to as Seokchonhosu Lake, is a citizen park in Seoul with a jogging course and walking trails. It has two lakes with Songpa-daero Boulevard running in between. Originally, a branch of the Hangang River ran through the site, forming one large lake, but the lake was divided into two with the construction of Songpa-daero Boulevard."
+									/>
+
+									<PictureWithLink
+										image={Bukchon}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_ENG_2_10_3.jsp"
+										title="Korea Tour by Seoul Subway Line 3"
+										description="Seoul Subway Line 3 connects northwestern Seoul to the southeastern tip of the city. The northwestern section of Line 3 includes the city of Goyang in Gyeonggi-do and the southeastern section runs to Ogeum in the Songpa-gu district of Seoul. Line 3 gives travelers the option of exploring a wide variety of fun-filled attractions, including Gyeongbokgung Palace, Bukchon Hanok Village, Samcheongdong-gil Road, Sinsa-dong Garosu-gil Road, Garak Market, and much more."
+									/>
+									<PictureWithLink
+										image={LotteWorld}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264152"
+										title="DESTINATIONS BY REGION - Lotte World (롯데월드)"
+										description="Lotte World Adventure is the world's largest indoor amusement park, complete with top-of-the-line rides, fantastic parades and performances, and food from around the world. The Folk Museum displays miniature models of Korea throughout 5,000 years in history. "
+									/>
+									<PictureWithLink
+										image={Dongdaemun1}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_ENG_2_10_4.jsp"
+										title="Korea Tour by Seoul Subway Line 4"
+										description="Seoul Subway Line 4 extends from the heart of Seoul to Oido Island, offering diverse travel options that include major cultural and artistic attractions, as well as a coastal trip just on the outskirts of Seoul. Travelers can enjoy the zestful energy at youth-driven areas of the city, such as performing arts and plays along Daehangno Street, view the talented work of up-and-coming artists and purchase their latest collections at Dongdaemun and Dongdaemun Design Plaza (DDP), or experience Korea’s movie culture at Chungmuro Movie Street."
+									/>
+									<PictureWithLink
+										image={Prison}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=268143"
+										title="DESTINATIONS BY REGION - Seodaemun Prison History Museum (서대문형무소역사관)"
+										description="Seodaemun Prison was built under the Japanese administration to imprison independence movement activists. It first opened on October 21, 1908 under the name Gyeongseong Prison. Eventually, so many activists were imprisoned that the building had to be expanded. At that time, the name changed to Seodaemun Prison on September 3, 1912. Eighty years later, the prison was turned into Seodaemun Independence Park on August 15, 1992 to commemorate the Korean patriots who were tortured in prison, giving their lives for freedom."
+									/>
+									<PictureWithLink
+										image={Samcheongdong}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264473"
+										title="DESTINATIONS BY REGION - Samcheong-dong Street (삼청동길)"
+										description="It is said that Samcheong-dong was named from the story about the three 'cheong' (Chinese character meaning clean) of the area, namely the mountain, water, and people. Another theory is that the origin of the region's name came from Samcheongjeon Hall where three tablets called 'Taecheong,' 'Sangcheong,' and 'Okcheong,' were set up based on Taoism. Samcheong-dong Street features a mixture of old scenes of hanok buildings with traditional beauty and modern scenes of galleries and cafés, creating a unique atmosphere."
+									/>
+									<PictureWithLink
+										image={Namsan}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264550"
+										title="DESTINATIONS BY REGION - Namsan Seoul Tower (남산서울타워)"
+										description="Namsan Seoul Tower was the first multipurpose tower to be established in Korea, effectively incorporating a sightseeing observatory to a broadcasting tower. For the past 40 years, Namsan Seoul Tower has served as an iconic landmark of Korea and a representative tourist attraction. The tower's observatory offers an unobstructed view of the whole city, allowing it to become one of the all-time favorite attractions of Seoul citizens as well as domestic and international tourists."
+									/>
+									<PictureWithLink
+										image={Yeouido}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_ENG_2_10_5.jsp"
+										title="Korea Tour by Seoul Subway Line 5"
+										description="The stations on Seoul Subway Line 5 offer a plethora of attractions and restaurants. Gwanghwamun Square provides citizens and visitors a relaxing rest area within the city. Along Line 5 is also Gwangjang Market, where visitors can find delicious food such as jokbal (pig’s trotters), yukhoe (beef tartare), and nakji tangtangi (chopped live octopus). Whether it’s a relaxing park, exciting traditional market, or a spectacular night view you’re looking for, Line 5 has it all."
+									/>
+									<PictureWithLink
+										image={Gwangjang1}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=268143"
+										title="WHERE TO SHOP - Gwangjang Market (광장시장)"
+										description="Gwangjang Market was the first permanent market in Korea and continues to thrive as a popular tourist destination today. The name Gwangjang means 'to gather from afar and keep altogether.' The market began as a small trading center that brought in goods from nearby regions, but has now grown into a large wholesale market selling a variety of goods, including upholstery, imported goods, groceries, dried fish, traditional goods, and more."
+									/>
+									<PictureWithLink
+										image={Haneul}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_ENG_2_10_6.jsp"
+										title="Seoul Tour by Subway Line 6"
+										description="Seoul Subway Line 6 allows travelers to explore every corner of Seoul, including the past, present, and future in places like the state-of-the-art digital media entertainment cluster and traditional markets. You can go for a stroll around Mangwon Hangang Park along the Hangang River located near subway stations."
+									/>
+									<PictureWithLink
+										image={Itaewon}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264358"
+										title="DESTINATIONS BY REGION - Itaewon Special Tourist Zone (이태원 관광특구)"
+										description="The name Itaewon started to spread worldwide in the 1980s when Korea hosted the 1986 Seoul Asian Games and the 1988 Seoul Olympic Games, as well as many international conferences. Since then, Itaewon has become a popular travel destination. Clothes and accessories with unique designs, and leather products in particular are famous. "
+									/>
+									<PictureWithLink
+										image={Subway7}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_ENG_2_10_7.jsp"
+										title="Korea Tour by Seoul Subway Line 7"
+										description="Seoul Subway Line 7 spans a wide area extending from Dobongsan Mountain through the south and southwestern parts of Seoul to Gwangmyeong, Gyeonggi-do and Incheon. Travelers can experience the lively energy of traditional markets and modern shopping streets, as well as the mystical ambience of a well-equipped cave. People are also invited to enjoy exceptional facilities standing in harmony with the Hangang River, or take a stroll through an urban forest."
+									/>
+									<PictureWithLink
+										image={Starbucks}
+										link="https://mustsharenews.com/starbucks-wave/"
+										title="Seoul’s Starbucks Wave Floats On The Han River, Stacked Glass Walls Create Illusion"
+										description="Unlike a typical Starbucks cafe decked out in wood & forest green panels, this branch literally floats. This means you may feel like you’re riding on a cruise ship as the building appears to be hovering on the surface of the water."
+									/>
+									<PictureWithLink
+										image={Dongdaemun1}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_ENG_2_10_8.jsp"
+										title="Korea Tour by Seoul Subway Line 8"
+										description="Connecting the southeastern part of Seoul from Amsa-dong in Seoul to Seongnam in Gyeonggi-do, subway line 8 has a plethora of tourist destinations from a UNESCO World Heritage Site to other cultural, artistic and historical attractions. The area around Lotte World and Songpa Naru Park (Seokchonhosu Lake) has been designated as a special tourism district in Seoul for being a one-stop destination for shopping, leisure and entertainment."
+									/>
+									<PictureWithLink
+										image={OlympicPark}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=789703"
+										title="DESTINATIONS BY REGION - Olympic Park (올림픽공원)"
+										description="Olympic Park is an impressive leisure facility in which historic remains from the Baekje era share space with modern, state-of-the-art sports stadiums, an eco-friendly forest, and spacious grass fields. The legacy of the 1988 Seoul Olympics, the park not only houses the country’s largest sports arena, but has also become a place where Seoul residents come to relax and unwind."
+									/>
+									<PictureWithLink
+										image={Banpodaegyo}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_ENG_2_10_9.jsp"
+										title="Korea Tour by Seoul Subway Line 9"
+										description="Subway Line 9 connects stations situated along the Hangang River’s southern bank, from Gimpo Airport to major tourist attractions in Seoul. Start off in Yeouido, Korea's financial hub, take a stroll along the Hangang Park nearby, do some souvenir shopping at a mall or traditional market, and find peace at a temple in the heart of the city. In particular, Seonyudo Park, Yeouido Saetgang Ecological Park and Banpo Hangang Park have beautifully harmonized nature with the forest of buildings."
+									/>
+									<PictureWithLink
+										image={Square}
+										link="https://english.visitkorea.or.kr/enu/ATR/SI_EN_3_1_1_1.jsp?cid=264122"
+										title="DESTINATIONS BY REGION - 63 Square (63스퀘어)"
+										description="With 63 floors measuring a total height of 249 meters, 63 Square is one of Korea’s tallest and most recognized skyscrapers. 63 Square boasts spectacular views of the Hangang River and the surrounding Bugaksan, Namsan and Gwanaksan Mountains. The building also offers an outstanding vantage point when viewing the sunset over the city."
 									/>
 								</div>
 							</div>
