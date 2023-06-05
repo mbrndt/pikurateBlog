@@ -84,7 +84,11 @@ import daelim from "../../assets/daelim.jpeg";
 import songeun from "../../assets/songeun.webp";
 import spacek from "../../assets/spacek.jpeg";
 import coreana from "../../assets/coreana.png";
-import artsy from "../../assets/artsy.jpeg";
+import artsy from "../../assets/artsy1.jpeg";
+import arario from "../../assets/arario.jpeg";
+import Kukje from "../../assets/Kukje.png";
+import hyundai from "../../assets/hyundai.jpeg";
+import pkm from "../../assets/pkm.jpeg";
 
 import Modal from "@/app/components/Modal";
 import SocialShare from "@/app/components/SocialShare";
@@ -195,10 +199,13 @@ function AllAboutSeoulPage(image, link, title, description) {
 							</Link>
 						</div>
 						<div className="pl-20 mr-5">
-							<p className="text-blue-600">
-								duolingo.com and 223 more references
-							</p>
-							<p className="text-slate-400 pb-5">last update: 1 ago</p>
+							<Link
+								href="/blog/AllAboutSeoul/curators#ref"
+								className="text-blue-600"
+							>
+								The Korea Herald and 10 more references
+							</Link>
+							<p className="text-slate-400 pb-5">last update: 1d ago</p>
 						</div>
 					</div>
 					<PikurateBPDesc image={Seoul} />
@@ -216,9 +223,10 @@ function AllAboutSeoulPage(image, link, title, description) {
 								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
 									Seoul, the capital of South Korea, is a bustling metropolis
 									that seamlessly blends ancient traditions with modern
-									innovations. From stunning palaces and serene temples to
-									vibrant shopping districts and thriving nightlife, Seoul
-									offers a diverse range of experiences. Delight in the
+									innovations. Did you know that it&apos;s history dates back
+									approximately 2,000 years? From stunning palaces and serene
+									temples to vibrant shopping districts and thriving nightlife,
+									Seoul offers a diverse range of experiences. Delight in the
 									city&apos;s renowned street food, immerse yourself in its
 									vibrant K-pop culture, and explore its rich history through
 									majestic landmarks. With its dynamic energy, captivating
@@ -274,14 +282,15 @@ function AllAboutSeoulPage(image, link, title, description) {
 								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
 									Embark on a thrilling adventure in Seoul with our link list
 									featuring an array of exciting activities and experiences to
-									enjoy in the city. Discover hidden gems and popular
-									attractions, indulge in mouthwatering cuisine, shop at vibrant
-									markets, immerse yourself in cultural festivals, and explore
-									the dynamic neighborhoods that make Seoul a captivating
-									destination. Whether you&apos;re a history enthusiast, a food
-									lover, a fashionista, or simply seeking unique adventures, our
-									curated list of things to do in Seoul will inspire you to make
-									the most of your visit and create unforgettable memories.
+									enjoy in the city. Join the 13.37 million foreign visitors and
+									discover hidden gems and popular attractions, indulge in
+									mouthwatering cuisine, shop at vibrant markets, immerse
+									yourself in cultural festivals, and explore the dynamic
+									neighborhoods that make Seoul a captivating destination.
+									Whether you&apos;re a history enthusiast, a food lover, a
+									fashionista, or simply seeking unique adventures, our curated
+									list of things to do in Seoul will inspire you to make the
+									most of your visit and create unforgettable memories.
 								</p>
 								<div className="flex items-center gap-5 border-b mt-5 flex-col">
 									<PictureWithLink
@@ -909,6 +918,30 @@ Well, grab your party pants and top up your glass with soju to read everything a
 										link="https://www.artsytravels.com/asia/the-best-korean-contemporary-art-galleries-in-seoul/"
 										title="The Best Korean Contemporary Art Galleries In Seoul"
 										description=" Located mostly in the same area, around the former imperial palace, Gyeongbokgung Palace, they can be easily visited in one day, walking along the beautiful palaces gardens. The perfect itinerary to pair with a visit to the MMCA or the many other contemporary art exhibition spaces around the same area. "
+									/>
+									<PictureWithLink
+										image={arario}
+										link="https://www.arariomuseum.org/main.php"
+										title="Arario Museum"
+										description="Quirky contemporary art collection in a mazelike building renowned for its 1970s brick architecture."
+									/>
+									<PictureWithLink
+										image={Kukje}
+										link="https://www.kukjegallery.com/"
+										title="Kukje Gallery"
+										description="Kukje Gallery, initially founded in Seoul’s Insa-dong by chairman Hyun-Sook Lee in 1982, relocated in 1987 to its iconic K1 building in the heart of Sogyeok-dong, a neighborhood rich with historical and cultural context. Since its inception, Kukje Gallery has served as a vital cultural hub in Seoul, introducing important works by renowned modern and contemporary artists. "
+									/>
+									<PictureWithLink
+										image={hyundai}
+										link="https://www.galleryhyundai.com/main"
+										title="Gallery Hyundai"
+										description="Founded in 1970, Gallery Hyundai is the longest-running contemporary art gallery in Korea. For nearly 50 years the gallery has played an integral role in the development of Korea’s contemporary art infrastructure. "
+									/>
+									<PictureWithLink
+										image={pkm}
+										link="https://www.pkmgallery.com/"
+										title="PKM Gallery"
+										description="Since its opening in 2001, PKM Gallery has been consistently presenting exhibitions of both Korean and international artists whose artworks keenly reflect the trends of contemporary art."
 									/>
 								</div>
 							</div>
