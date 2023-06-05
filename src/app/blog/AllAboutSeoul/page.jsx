@@ -42,7 +42,7 @@ import club2 from "../../assets/club2.webp";
 import club3 from "../../assets/club3.webp";
 import Expat from "../../assets/expat.jpg";
 import SeoulNight from "../../assets/seoulNight.jpg";
-import Restaurant from "../../assets/restaurant.jpg";
+import Restaurant from "../../assets/Restaurant.jpg";
 import NSeoulTower from "../../assets/NSeoulTower.jpg";
 import Hangang from "../../assets/Hangang.jpg";
 import Evening from "../../assets/Evening.jpg";
@@ -50,7 +50,7 @@ import Subway from "../../assets/subway.jpg";
 import Gate from "../../assets/gate.jpeg";
 import Gate2 from "../../assets/gate2.jpeg";
 import Gangnam from "../../assets/gangnam.jpeg";
-import Songpa from "../../assets/songpa.bmp";
+import Songpa from "../../assets/Songpa.bmp";
 import Bukchon from "../../assets/Bukchon.jpeg";
 import LotteWorld from "../../assets/LotteWorld.bmp";
 import Dongdaemun1 from "../../assets/Dongdaemun.jpeg";
@@ -710,7 +710,7 @@ Well, grab your party pants and top up your glass with soju to read everything a
 										description="Unlike a typical Starbucks cafe decked out in wood & forest green panels, this branch literally floats. This means you may feel like you’re riding on a cruise ship as the building appears to be hovering on the surface of the water."
 									/>
 									<PictureWithLink
-										image={Dongdaemun1}
+										image={Subway8}
 										link="https://english.visitkorea.or.kr/enu/ATR/SI_ENG_2_10_8.jsp"
 										title="Korea Tour by Seoul Subway Line 8"
 										description="Connecting the southeastern part of Seoul from Amsa-dong in Seoul to Seongnam in Gyeonggi-do, subway line 8 has a plethora of tourist destinations from a UNESCO World Heritage Site to other cultural, artistic and historical attractions. The area around Lotte World and Songpa Naru Park (Seokchonhosu Lake) has been designated as a special tourism district in Seoul for being a one-stop destination for shopping, leisure and entertainment."
