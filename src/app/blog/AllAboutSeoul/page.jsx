@@ -67,6 +67,24 @@ import OlympicPark from "../../assets/OlympicPark.bmp";
 import Subway8 from "../../assets/Subway8.jpeg";
 import Banpodaegyo from "../../assets/Banpodaegyo.jpeg";
 import Square from "../../assets/63Square.jpeg";
+import Art from "../../assets/art.jpg";
+import Frieze from "../../assets/frieze.jpeg";
+import Kiaf from "../../assets/kiaf.jpeg";
+import art2 from "../../assets/art2.webp";
+import art3 from "../../assets/art3.webp";
+import art4 from "../../assets/art4.webp";
+import art5 from "../../assets/art5.webp";
+import exib from "../../assets/exib.jpg";
+import MMCA from "../../assets/MMCA.png";
+import SMOA from "../../assets/SMOA.png";
+import NMOK from "../../assets/NMOK.png";
+import Leuum from "../../assets/leuum.jpeg";
+import apma from "../../assets/apma.jpeg";
+import daelim from "../../assets/daelim.jpeg";
+import songeun from "../../assets/songeun.webp";
+import spacek from "../../assets/spacek.jpeg";
+import coreana from "../../assets/coreana.png";
+import artsy from "../../assets/artsy.jpeg";
 
 import Modal from "@/app/components/Modal";
 import SocialShare from "@/app/components/SocialShare";
@@ -741,37 +759,61 @@ Well, grab your party pants and top up your glass with soju to read everything a
 							<div className="flex flex-col items-center">
 								<h1 className="text-4xl m-5 capitalize">Art Spot</h1>
 								<Image
-									src={KoreanFood}
+									src={Art}
 									alt=""
 									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
 								/>
 								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
-									Discover Seoul like never before with our curated collection
-									of links in the About Seoul section. Explore the vibrant
-									capital city of South Korea through various resources,
-									including travel guides, historical insights, local cuisine,
-									cultural experiences, and more. Immerse yourself in the rich
-									heritage and modern allure of Seoul as you delve into these
-									handpicked links that showcase the citys unique charm and
-									offer a deeper understanding of its fascinating culture.
+									Unleash your creativity and immerse yourself in the
+									captivating world of art in Seoul. Our art section is
+									dedicated to showcasing the city&apos;s vibrant art scene,
+									from contemporary galleries to traditional museums. Explore
+									thought-provoking exhibitions, marvel at intricate sculptures,
+									and appreciate diverse art forms that reflect the rich
+									cultural heritage of Seoul. Whether you&apos;re an art
+									enthusiast or simply seeking inspiration, Seoul offers a
+									multitude of artistic experiences that will ignite your
+									imagination and leave you with a deeper appreciation for the
+									transformative power of art. Prepare to be captivated by the
+									beauty, innovation, and artistic expression that permeate
+									every corner of this dynamic city.
 								</p>
 								<div className="flex items-center gap-5 border-b mt-5 flex-col">
 									<PictureWithLink
-										image={Seoul}
-										link="https://truecloset.tistory.com/91"
-										title="영어 작문을 도와주는 사이트 모음 -"
-										description="Explore this handy collection of grammar and spelling check
-									tools for English, designed to help you enhance your writing
-									skills and ensure accuracy in your written communication."
+										image={Frieze}
+										link="https://www.frieze.com/fairs/frieze-seoul"
+										title="Frieze Seoul"
+										description="Frieze Seoul is a new international art fair by the team behind premium art fairs such as Frieze London, Frieze Masters, Frieze New York and Frieze Los Angeles. The second edition will take place from September 6-9, 2023 at COEX, in the Gangnam district in the heart of Seoul. Patrick Lee is the Director of Frieze Seoul."
 									/>
 									<PictureWithLink
-										image={Kor90day}
-										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
-										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
-										description="Explore an extensive range of subjects designed to improve
-								your vocabulary, grammar, speaking, and writing abilities,
-								empowering you to excel in English communication across
-								various domains."
+										image={Kiaf}
+										link="https://kiaf.org/"
+										title="Kiaf SEOUL"
+										description="Kiaf SEOUL first opened in 2002 to develop the foundation of Korean art and introduce contemporary Korean art to the international audience. Kiaf SEOUL established itself as an international art fair where visitors can experience the globalized contemporary art and closely examine the trend of the art market."
+									/>
+									<PictureWithLink
+										image={art2}
+										link="https://theculturetrip.com/asia/south-korea/articles/an-art-lovers-guide-to-seoul-in-24-hours/"
+										title="An Art Lover's Guide to Seoul in 24 hours"
+										description="Catering to a variety of tastes, Seoul’s art scene is one of the most unique in the region. Here are the best destinations for art lovers for when you only have 24-hours to explore."
+									/>
+									<PictureWithLink
+										image={art3}
+										link="https://www.klook.com/en-PH/blog/art-spots-seoul/"
+										title="5 Secret Art Spots in Seoul that Even Tour Guides Won’t Tell You About"
+										description="With our guide on artsy places around Seoul, we’ll let you in on some of the recommendations from the trendy Korean youth"
+									/>
+									<PictureWithLink
+										image={art4}
+										link="https://www.wallpaper.com/art/seoul-tour-art-and-culture"
+										title="Seoul tour: a culture trip through the South Korean capital"
+										description="With new galleries and bustling bars, all eyes are on the South Korean capital. Our ‘Postcard from Seoul’ guided tour explores the cultural must-sees of the moment"
+									/>
+									<PictureWithLink
+										image={art5}
+										link="https://ocula.com/cities/south-korea/seoul-art-galleries/"
+										title="Seoul Art Guide PRESENTED BY Kiaf"
+										description="Ocula Member Galleries are selected by a committee of respected gallerists with the purpose of presenting only the best of contemporary art on Ocula."
 									/>
 								</div>
 							</div>
@@ -781,37 +823,92 @@ Well, grab your party pants and top up your glass with soju to read everything a
 							<div className="flex flex-col items-center">
 								<h1 className="text-4xl m-5 capitalize">Exhibition</h1>
 								<Image
-									src={KoreanFood}
+									src={exib}
 									alt=""
 									className=" justify-center rounded-lg w-3/4 h-3/4 md:h-1/2 md:w-1/2"
 								/>
 								<p className="bg-gray-50 rounded-lg w-3/4 p-4 my-5 ">
-									Discover Seoul like never before with our curated collection
-									of links in the About Seoul section. Explore the vibrant
-									capital city of South Korea through various resources,
-									including travel guides, historical insights, local cuisine,
-									cultural experiences, and more. Immerse yourself in the rich
-									heritage and modern allure of Seoul as you delve into these
-									handpicked links that showcase the citys unique charm and
-									offer a deeper understanding of its fascinating culture.
+									Step into a world of creativity and inspiration with our
+									curated collection of exhibitions in Seoul. Discover the
+									city&apos;s vibrant art scene through a variety of captivating
+									showcases, from contemporary art exhibitions pushing
+									boundaries to curated retrospectives of renowned artists.
+									Immerse yourself in thought-provoking installations, explore
+									immersive multimedia displays, and engage with interactive
+									exhibits that challenge your perspective. Whether you&apos;re
+									a seasoned art lover or simply curious about the artistic
+									expression, these exhibitions offer a unique opportunity to
+									delve into the diverse and dynamic world of visual arts. Get
+									ready to embark on a journey of discovery and be captivated by
+									the beauty, innovation, and storytelling that each exhibition
+									brings to life.
 								</p>
 								<div className="flex items-center gap-5 border-b mt-5 flex-col">
 									<PictureWithLink
-										image={Seoul}
-										link="https://truecloset.tistory.com/91"
-										title="영어 작문을 도와주는 사이트 모음 -"
-										description="Explore this handy collection of grammar and spelling check
-									tools for English, designed to help you enhance your writing
-									skills and ensure accuracy in your written communication."
+										image={MMCA}
+										link="https://www.mmca.go.kr/eng/visitingInfo/seoulInfo.do"
+										title="National Museum of Modern and Contemporary Art, Seoul"
+										description="Since its foundation in 1969, the National Museum of Modern and Contemporary Art, Korea, also known as MMCA, has shared its history with that of Korea’s modern and contemporary art and became one of the most iconic cultural spaces in the nation.
+
+										By opening additional museums in Gwacheon in 1986, Deoksugung in 1998, Seoul in 2013, and Cheongju in 2018, we have four major establishments that are unique and organically affiliated."
 									/>
 									<PictureWithLink
-										image={Kor90day}
-										link="https://m.post.naver.com/viewer/postView.nhn?volumeNo=17157664&memberNo=15962196&vType=VERTICAL"
-										title="영어공부혼자하기 유용한 사이트 모음 37개 -"
-										description="Explore an extensive range of subjects designed to improve
-								your vocabulary, grammar, speaking, and writing abilities,
-								empowering you to excel in English communication across
-								various domains."
+										image={SMOA}
+										link="https://sema.seoul.go.kr/en/index"
+										title="Seoul Museum of Art"
+										description="The Seoul Museum of Art is a network museum that users, mediators, and producers are building together."
+									/>
+									<PictureWithLink
+										image={NMOK}
+										link="https://www.museum.go.kr/site/eng/home"
+										title="National Museum of Korea"
+										description="Visitors can fully enjoy its six galleries in the Permanent Exhibition Hall arranged by period and theme, special exhibition galleries that feature various contents, diverse guided-tour programs to deepen one’s understanding, the Children's Museum where kids are able to enjoy and experiment with the five senses, a variety of educational programs, and immersible AR and VR contents using advanced IT technology."
+									/>
+									<PictureWithLink
+										image={Leuum}
+										link="https://www.leeum.org/index.asp?lang=eng"
+										title="Leeum, Museum of Art"
+										description="The Leeum, Samsung Museum of Art is a museum in Hannam-dong, Yongsan-gu, Seoul, South Korea, run by the Samsung Foundation of Culture. It consists of two parts that house traditional Korean art and contemporary art."
+									/>
+									<PictureWithLink
+										image={apma}
+										link="https://apma.amorepacific.com/index.do"
+										title="APMA (Amorepacific Museum of Art)"
+										description="Aiming for 'an open space to find beauty in the ordinary', this museum was established as a space for fostering open communication. To this end, the museum collects, studies, and exhibits anicent Korean and contemporary arts, also supporting researchers, academic societies, and young writers in the process."
+									/>
+									<PictureWithLink
+										image={daelim}
+										link="https://www.daelimmuseum.org/"
+										title="Daelim Museum"
+										description="Located in the residential neighbourhood of Tongui-dong, near historic Gyeongbokgung Palace, Daelim Museum began its life as Korea’s first photography
+										museum. Today, it holds exhibitions that embrace not only photography but also design and a range of other fields, while continuing to expand its own
+										boundaries."
+									/>
+									<PictureWithLink
+										image={songeun}
+										link="https://www.daelimmuseum.org/"
+										title="SONGEUN Art and Cultural Foundation"
+										description="The foundation’s name derives from the founding father’s nom de plume, “SONGEUN”, translating to ‘hidden pine tree’ as a means of capturing the spirit of the foundation’s deeply rooted mission to support emerging artists. In 2001, the foundation initiated the SONGEUN Art Award to foster promising contemporary Korean artists and further propel the careers of the awardees. In September 2021, SONGEUN unveiled its new space designed by the renowned Swiss architecture firm, Herzog & de Meuron, as their first-ever realized project in Korea. "
+									/>
+									<PictureWithLink
+										image={spacek}
+										link="https://www.spacek.co.kr/index.do"
+										title="Space K"
+										description="Space K is established in 2011 to foster art culture by Kolon group.
+										Setting forth initiative to support art and aiming to share with local community, Kolon group is introducing Space K, a non-profit gallery.
+										Space K strives to focus on creativity of artists and present innovative and distinguished contents for the community."
+									/>
+									<PictureWithLink
+										image={coreana}
+										link="http://www.spacec.co.kr/en/gallery/gallery1"
+										title="Coreana Museum of Art"
+										description="The Coreana Cosmetic Museum is a museum in Seoul, South Korea. It is related to the Korean Coreana cosmetics company. Its collection is based on 53,000 items collected by Dr. Yu Sang-Ok, one of the executive directors of Coreana."
+									/>
+									<PictureWithLink
+										image={artsy}
+										link="https://www.artsytravels.com/asia/the-best-korean-contemporary-art-galleries-in-seoul/"
+										title="The Best Korean Contemporary Art Galleries In Seoul"
+										description=" Located mostly in the same area, around the former imperial palace, Gyeongbokgung Palace, they can be easily visited in one day, walking along the beautiful palaces gardens. The perfect itinerary to pair with a visit to the MMCA or the many other contemporary art exhibition spaces around the same area. "
 									/>
 								</div>
 							</div>
