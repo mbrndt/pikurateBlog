@@ -12,6 +12,7 @@ function BPCard({ image, link, title, desc }) {
 					width={150}
 					height={150}
 					alt=""
+					loading="lazy"
 				/>
 				<div className="flex flex-col pb-5 items-center">
 					<Link className="pl-5 mt-5 text-xl font-sans" href={link}>
