@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import countapi from "countapi-js";
 
 import logo from "../../assets/parkjinyoung.jpeg";
 import Seoul from "../../assets/seoul.jpg";
@@ -108,7 +109,7 @@ function AllAboutSeoulPage(image, link, title, description) {
 					<Link
 						href="/blog/AllAboutSeoul#section1"
 						scroll={false}
-						className="capitalize"
+						className="capitalize hover:text-blue-500 selection:text-blue-400"
 					>
 						About Seoul
 					</Link>
