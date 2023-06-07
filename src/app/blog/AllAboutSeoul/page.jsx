@@ -95,9 +95,11 @@ import SocialShare from "@/app/components/SocialShare";
 import PictureWithLink from "@/app/components/PictureWithLink";
 import PikurateBPDesc from "@/app/components/PikurateBPDesc";
 import BPDirectory from "@/app/components/BPDirectory";
+import "dotenv/config";
 
 function AllAboutSeoulPage(image, link, title, description) {
 	const [isModalVisible, setIsModalVisible] = useState(false);
+
 	return (
 		<div className="max-w-screen min-h-screen flex flex-row md:justify-center">
 			<div className="md:w-32 md:h-full shrink-0 bg-gray-300"></div>
@@ -950,7 +952,9 @@ Well, grab your party pants and top up your glass with soju to read everything a
 					<section>
 						{/* share buttons and comment section */}
 						<div className="flex flex-col items-center mt-5">
-							<p>This Page has 264,094 views</p>
+							<p>
+								This Page has <span id="pageviews-count"></span> views.
+							</p>
 							<div className="">
 								<div className="bg-gray-50 rounded-xl flex flex-row gap-5 mt-5 items-center">
 									<button
