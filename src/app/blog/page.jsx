@@ -24,10 +24,10 @@ function page() {
 						</span>
 						Here, we take the wealth of information gathered by our community
 						and AI algorithms and transform selected &quot;piks&quot; into
-						engaging blog posts. From travel insights and expert tips to
-						captivating stories and thought-provoking analysis, we curate
-						knowledge to satisfy your thirst for learning. For a broader range
-						of curated knowledge, be sure to visit the Pikurate homepage at{" "}
+						engaging blog posts. From travel insights and lifestyle topics to
+						expert tips, we curate knowledge to satisfy your thirst for
+						learning. For a broader range of curated knowledge, be sure to visit
+						the Pikurate homepage at{" "}
 						<Link
 							className="text-blue-500"
 							href="https://www.pikurate.com/"
