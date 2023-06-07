@@ -4,7 +4,7 @@ import Header from "./components/Header";
 import { Footer } from "./components/Footer";
 
 export const metadata = {
-	title: "Pikurate - More Than Just A Link",
+	title: "Pikurate Blog - More Than Just A Link",
 	description:
 		"Pikurate is a tailored knowledge curation platform, powered by AI and our community",
 	keywords: "pikurate, knowlege curation , AI",
