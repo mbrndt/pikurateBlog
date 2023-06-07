@@ -47,12 +47,12 @@ function page() {
 						title="All About Seoul"
 						desc="Uncover all the essential information for your upcoming journey to Seoul, South Korea. Explore a wealth of details about top-notch dining spots and must-see tourist attractions, ensuring you're well-prepared for an unforgettable adventure."
 					/>
-					<BPCard
+					{/* <BPCard
 						image={study}
 						link="/blog/englishStudy"
 						title="English Study Materials"
 						desc="Welcome to our English Language Learning section, where we have carefully curated a selection of resources and tools to support your language journey. Whether you're looking to improve your grammar skills or expand your vocabulary, we have you covered. Explore our collection and embark on a seamless learning experience to enhance your English proficiency."
-					/>
+					/> */}
 				</div>
 			</div>
 			<div className="md:w-1/4 md:h-full " />
