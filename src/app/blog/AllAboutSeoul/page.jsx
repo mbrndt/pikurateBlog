@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -97,6 +97,29 @@ import PictureWithLink from "@/app/components/PictureWithLink";
 import PikurateBPDesc from "@/app/components/PikurateBPDesc";
 import BPDirectory from "@/app/components/BPDirectory";
 import "dotenv/config";
+
+var counterContainer = document.querySelector(".website-counter");
+var resetButton = document.querySelector("#reset");
+var visitCount = localStorage.getItem("page_view");
+
+// Check if page_view entry is present
+if (visitCount) {
+	visitCount = Number(visitCount) + 1;
+	localStorage.setItem("page_view", visitCount);
+} else {
+	visitCount = 1;
+	localStorage.setItem("page_view", 1);
+}
+counterContainer.innerHTML = visitCount;
+
+// Adding onClick event listener
+resetButton.addEventListener("click", () => {
+	visitCount = 1;
+	localStorage.setItem("page_view", 1);
+	counterContainer.innerHTML = visitCount;
+});
+
+console.log(visitCount);
 
 function AllAboutSeoulPage(image, link, title, description) {
 	const [isModalVisible, setIsModalVisible] = useState(false);
@@ -1008,7 +1031,7 @@ Well, grab your party pants and top up your glass with soju to read everything a
 								href="/blog/comments"
 								className="uppercase font-serif ml-2 mt-10 border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5 hover:bg-gray-50"
 							>
-								298 Comments
+								{visitCount}
 							</Link>
 							<div className="flex flex-row space-x-3 mt-10 justify-start  w-full border-b">
 								<p className="uppercase border rounded-xl border-gray-500 px-2 mb-5">

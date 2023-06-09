@@ -1,9 +1,19 @@
+"use client";
+
 const { default: Link } = require("next/link");
 import logo from "../assets/BI_color.png";
 import Image from "next/image";
+import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 
 const Header = () => {
+	const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+	const handleMenu = () => {
+		setIsMenuOpen(!isMenuOpen);
+		console.log(isMenuOpen);
+	};
+
 	return (
 		<header className="mt-2 border-b font-sans">
 			<div className="flex flex-row items-center justify-between">
@@ -21,10 +31,18 @@ const Header = () => {
 					</div>
 				</div>
 				<div className="md:hidden mr-5">
-					<button>
+					<button type="button" onClick={handleMenu}>
 						<AiOutlineMenu size={30} />
 					</button>
 				</div>
+				{isMenuOpen ? (
+					<div className="flex flex-col items-center justify-center md:hidden">
+						<div className="flex flex-col items-center justify-center">
+							<Link href="/blog">Blog</Link>
+							<Link href="/about">About</Link>
+						</div>
+					</div>
+				) : null}
 			</div>
 		</header>
 	);
