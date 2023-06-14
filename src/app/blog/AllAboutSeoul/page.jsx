@@ -977,7 +977,7 @@ Well, grab your party pants and top up your glass with soju to read everything a
 						{/* share buttons and comment section */}
 						<div className="flex flex-col items-center mt-5">
 							<p>
-								This Page has <span></span> views.
+								This Page has <span>11</span> views.
 							</p>
 							<div className="">
 								<div className="bg-gray-50 rounded-xl flex flex-row gap-5 mt-5 items-center">
