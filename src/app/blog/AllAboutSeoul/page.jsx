@@ -98,28 +98,28 @@ import PikurateBPDesc from "@/app/components/PikurateBPDesc";
 import BPDirectory from "@/app/components/BPDirectory";
 import "dotenv/config";
 
-var counterContainer = document.querySelector(".website-counter");
-var resetButton = document.querySelector("#reset");
-var visitCount = localStorage.getItem("page_view");
+// var counterContainer = document.querySelector(".website-counter");
+// var resetButton = document.querySelector("#reset");
+// var visitCount = localStorage.getItem("page_view");
 
-// Check if page_view entry is present
-if (visitCount) {
-	visitCount = Number(visitCount) + 1;
-	localStorage.setItem("page_view", visitCount);
-} else {
-	visitCount = 1;
-	localStorage.setItem("page_view", 1);
-}
-counterContainer.innerHTML = visitCount;
+// // Check if page_view entry is present
+// if (visitCount) {
+// 	visitCount = Number(visitCount) + 1;
+// 	localStorage.setItem("page_view", visitCount);
+// } else {
+// 	visitCount = 1;
+// 	localStorage.setItem("page_view", 1);
+// }
+// counterContainer.innerHTML = visitCount;
 
 // Adding onClick event listener
-resetButton.addEventListener("click", () => {
-	visitCount = 1;
-	localStorage.setItem("page_view", 1);
-	counterContainer.innerHTML = visitCount;
-});
+// resetButton.addEventListener("click", () => {
+// 	visitCount = 1;
+// 	localStorage.setItem("page_view", 1);
+// 	counterContainer.innerHTML = visitCount;
+// });
 
-console.log(visitCount);
+// console.log(visitCount);
 
 function AllAboutSeoulPage(image, link, title, description) {
 	const [isModalVisible, setIsModalVisible] = useState(false);
