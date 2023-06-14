@@ -4,9 +4,12 @@ import { FcGoogle } from "react-icons/fc";
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { auth } from "src/app/firebase.js";
 import { useRouter } from "next/navigation";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { useEffect } from "react";
 
 export default function Login() {
 	const router = useRouter();
+	const [user, loading] = useAuthState(auth);
 	//Sign in with google
 	const googleProvider = new GoogleAuthProvider();
 	const GoogleLogin = async () => {
@@ -18,6 +21,14 @@ export default function Login() {
 			console.log(error);
 		}
 	};
+
+	useEffect(() => {
+		if (user) {
+			router.push("/");
+		} else {
+			console.log("no user loged in");
+		}
+	}, [user]);
 
 	return (
 		<div className="shadow-xl mx-5 mt-32 md:mt-5 md:mb-20 p-10 text-gray-700 rounded-lg md:flex md:flex-col md:items-center ">
