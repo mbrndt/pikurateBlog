@@ -10,13 +10,14 @@ import { useEffect } from "react";
 export default function Login() {
 	const router = useRouter();
 	const [user, loading] = useAuthState(auth);
+
 	//Sign in with google
 	const googleProvider = new GoogleAuthProvider();
+
 	const GoogleLogin = async () => {
 		try {
 			const result = await signInWithPopup(auth, googleProvider);
-			console.log(result.user);
-			router.push("/");
+			router.push("/dashboard");
 		} catch (error) {
 			console.log(error);
 		}

@@ -1,20 +1,28 @@
 "use client";
 
-const { default: Link } = require("next/link");
+import Link from "next/link";
+
 import logo from "../assets/BI_color.png";
 import Image from "next/image";
 import { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useAuthState } from "react-firebase-hooks/auth";
 import { auth } from "src/app/firebase.js";
+import { useRouter } from "next/navigation";
 
 const Header = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 	const [user, loading] = useAuthState(auth);
+	const router = useRouter();
 
 	const handleMenu = () => {
 		setIsMenuOpen(!isMenuOpen);
 		console.log(isMenuOpen);
+	};
+
+	const handleLogout = () => {
+		auth.signOut();
+		router.push("/auth/logout");
 	};
 
 	return (
@@ -46,7 +54,6 @@ const Header = () => {
 								<Link className="mr-5 hidden md:flex" href="/dashboard">
 									Dashboard
 								</Link>
-
 								<Image
 									alt="user profile picture"
 									src={user.photoURL}
@@ -54,12 +61,15 @@ const Header = () => {
 									width={40}
 									height={40}
 								/>
-								<Link
+
+								<p className="pl-2">{user.displayName}</p>
+
+								<button
 									className="mr-5 hidden md:flex bg-blue-200 rounded-lg px-4 text-blue-700 hover:bg-blue-300 hover:text-blue-900 font-medium ml-8"
-									href={"/auth/logout"}
+									onClick={handleLogout}
 								>
 									Logout
-								</Link>
+								</button>
 							</>
 						)}
 					</div>
