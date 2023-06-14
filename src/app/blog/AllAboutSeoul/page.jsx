@@ -977,7 +977,7 @@ Well, grab your party pants and top up your glass with soju to read everything a
 						{/* share buttons and comment section */}
 						<div className="flex flex-col items-center mt-5">
 							<p>
-								This Page has <span id="pageviews-count"></span> views.
+								This Page has <span></span> views.
 							</p>
 							<div className="">
 								<div className="bg-gray-50 rounded-xl flex flex-row gap-5 mt-5 items-center">
@@ -1030,9 +1030,7 @@ Well, grab your party pants and top up your glass with soju to read everything a
 							<Link
 								href="/blog/comments"
 								className="uppercase font-serif ml-2 mt-10 border rounded-xl border-gray-500 px-2 h-15 md:px-5 md:m-5 hover:bg-gray-50"
-							>
-								{visitCount}
-							</Link>
+							></Link>
 							<div className="flex flex-row space-x-3 mt-10 justify-start  w-full border-b">
 								<p className="uppercase border rounded-xl border-gray-500 px-2 mb-5">
 									english study
