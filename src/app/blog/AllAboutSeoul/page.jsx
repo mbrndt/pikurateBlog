@@ -616,7 +616,7 @@ function AllAboutSeoulPage(image, link, title, description) {
 										link="https://www.koreatravelpost.com/nightlife-in-seoul/"
 										title="A Complete Guide to Nightlife in Seoul, South Korea"
 										description="Seoul has one of the most dynamic nightlife scenes in Asia. Because of it, Seoul is an ideal destination for party animals and night owls. Some might even find it hard to keep up with the locals! 
-Well, grab your party pants and top up your glass with soju to read everything about Seoul’s nightlife."
+										Well, grab your party pants and top up your glass with soju to read everything about Seoul’s nightlife."
 									/>
 									<PictureWithLink
 										image={NSeoulTower}

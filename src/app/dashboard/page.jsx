@@ -12,7 +12,7 @@ export default function Dashboard() {
 	const [user, loading] = useAuthState(auth);
 
 	const getData = async () => {
-		if (loading) return <h1 className=" m-5">loading your Dashboard...</h1>;
+		// if (loading) return <h1 className=" m-5">loading your Dashboard...</h1>;
 		if (!user) return router.push("/auth/login");
 	};
 
